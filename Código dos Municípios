@@ -135,21 +135,21 @@ UF,Nome_UF,Município,Codigo_Municipio,Sigla_UF
 13,Amazonas,Uarini,1304260,AM
 13,Amazonas,Urucará,1304302,AM
 13,Amazonas,Urucurituba,1304401,AM
-14,Roraima,Alto Alegre,1400050,RO
-14,Roraima,Amajari,1400027,RO
-14,Roraima,Boa Vista,1400100,RO
-14,Roraima,Bonfim,1400159,RO
-14,Roraima,Cantá,1400175,RO
-14,Roraima,Caracaraí,1400209,RO
-14,Roraima,Caroebe,1400233,RO
-14,Roraima,Iracema,1400282,RO
-14,Roraima,Mucajaí,1400308,RO
-14,Roraima,Normandia,1400407,RO
-14,Roraima,Pacaraima,1400456,RO
-14,Roraima,Rorainópolis,1400472,RO
-14,Roraima,São João da Baliza,1400506,RO
-14,Roraima,São Luiz,1400605,RO
-14,Roraima,Uiramutã,1400704,RO
+14,Roraima,Alto Alegre,1400050,RR
+14,Roraima,Amajari,1400027,RR
+14,Roraima,Boa Vista,1400100,RR
+14,Roraima,Bonfim,1400159,RR
+14,Roraima,Cantá,1400175,RR
+14,Roraima,Caracaraí,1400209,RR
+14,Roraima,Caroebe,1400233,RR
+14,Roraima,Iracema,1400282,RR
+14,Roraima,Mucajaí,1400308,RR
+14,Roraima,Normandia,1400407,RR
+14,Roraima,Pacaraima,1400456,RR
+14,Roraima,Rorainópolis,1400472,RR
+14,Roraima,São João da Baliza,1400506,RR
+14,Roraima,São Luiz,1400605,RR
+14,Roraima,Uiramutã,1400704,RR
 15,Pará,Abaetetuba,1500107,PA
 15,Pará,Abel Figueiredo,1500131,PA
 15,Pará,Acará,1500206,PA
@@ -294,22 +294,22 @@ UF,Nome_UF,Município,Codigo_Municipio,Sigla_UF
 15,Pará,Viseu,1508308,PA
 15,Pará,Vitória do Xingu,1508357,PA
 15,Pará,Xinguara,1508407,PA
-16,Amapá,Amapá,1600105,AM
-16,Amapá,Calçoene,1600204,AM
-16,Amapá,Cutias,1600212,AM
-16,Amapá,Ferreira Gomes,1600238,AM
-16,Amapá,Itaubal,1600253,AM
-16,Amapá,Laranjal do Jari,1600279,AM
-16,Amapá,Macapá,1600303,AM
-16,Amapá,Mazagão,1600402,AM
-16,Amapá,Oiapoque,1600501,AM
-16,Amapá,Pedra Branca do Amapari,1600154,AM
-16,Amapá,Porto Grande,1600535,AM
-16,Amapá,Pracuúba,1600550,AM
-16,Amapá,Santana,1600600,AM
-16,Amapá,Serra do Navio,1600055,AM
-16,Amapá,Tartarugalzinho,1600709,AM
-16,Amapá,Vitória do Jari,1600808,AM
+16,Amapá,Amapá,1600105,AP
+16,Amapá,Calçoene,1600204,AP
+16,Amapá,Cutias,1600212,AP
+16,Amapá,Ferreira Gomes,1600238,AP
+16,Amapá,Itaubal,1600253,AP
+16,Amapá,Laranjal do Jari,1600279,AP
+16,Amapá,Macapá,1600303,AP
+16,Amapá,Mazagão,1600402,AP
+16,Amapá,Oiapoque,1600501,AP
+16,Amapá,Pedra Branca do Amapari,1600154,AP
+16,Amapá,Porto Grande,1600535,AP
+16,Amapá,Pracuúba,1600550,AP
+16,Amapá,Santana,1600600,AP
+16,Amapá,Serra do Navio,1600055,AP
+16,Amapá,Tartarugalzinho,1600709,AP
+16,Amapá,Vitória do Jari,1600808,AP
 17,Tocantins,Abreulândia,1700251,TO
 17,Tocantins,Aguiarnópolis,1700301,TO
 17,Tocantins,Aliança do Tocantins,1700350,TO
@@ -1241,229 +1241,229 @@ UF,Nome_UF,Município,Codigo_Municipio,Sigla_UF
 24,Rio Grande do Norte,Vera Cruz,2414803,RN
 24,Rio Grande do Norte,Viçosa,2414902,RN
 24,Rio Grande do Norte,Vila Flor,2415008,RN
-25,Paraíba,Água Branca,2500106,PA
-25,Paraíba,Aguiar,2500205,PA
-25,Paraíba,Alagoa Grande,2500304,PA
-25,Paraíba,Alagoa Nova,2500403,PA
-25,Paraíba,Alagoinha,2500502,PA
-25,Paraíba,Alcantil,2500536,PA
-25,Paraíba,Algodão de Jandaíra,2500577,PA
-25,Paraíba,Alhandra,2500601,PA
-25,Paraíba,Amparo,2500734,PA
-25,Paraíba,Aparecida,2500775,PA
-25,Paraíba,Araçagi,2500809,PA
-25,Paraíba,Arara,2500908,PA
-25,Paraíba,Araruna,2501005,PA
-25,Paraíba,Areia,2501104,PA
-25,Paraíba,Areia de Baraúnas,2501153,PA
-25,Paraíba,Areial,2501203,PA
-25,Paraíba,Aroeiras,2501302,PA
-25,Paraíba,Assunção,2501351,PA
-25,Paraíba,Baía da Traição,2501401,PA
-25,Paraíba,Bananeiras,2501500,PA
-25,Paraíba,Baraúna,2501534,PA
-25,Paraíba,Barra de Santa Rosa,2501609,PA
-25,Paraíba,Barra de Santana,2501575,PA
-25,Paraíba,Barra de São Miguel,2501708,PA
-25,Paraíba,Bayeux,2501807,PA
-25,Paraíba,Belém,2501906,PA
-25,Paraíba,Belém do Brejo do Cruz,2502003,PA
-25,Paraíba,Bernardino Batista,2502052,PA
-25,Paraíba,Boa Ventura,2502102,PA
-25,Paraíba,Boa Vista,2502151,PA
-25,Paraíba,Bom Jesus,2502201,PA
-25,Paraíba,Bom Sucesso,2502300,PA
-25,Paraíba,Bonito de Santa Fé,2502409,PA
-25,Paraíba,Boqueirão,2502508,PA
-25,Paraíba,Borborema,2502706,PA
-25,Paraíba,Brejo do Cruz,2502805,PA
-25,Paraíba,Brejo dos Santos,2502904,PA
-25,Paraíba,Caaporã,2503001,PA
-25,Paraíba,Cabaceiras,2503100,PA
-25,Paraíba,Cabedelo,2503209,PA
-25,Paraíba,Cachoeira dos Índios,2503308,PA
-25,Paraíba,Cacimba de Areia,2503407,PA
-25,Paraíba,Cacimba de Dentro,2503506,PA
-25,Paraíba,Cacimbas,2503555,PA
-25,Paraíba,Caiçara,2503605,PA
-25,Paraíba,Cajazeiras,2503704,PA
-25,Paraíba,Cajazeirinhas,2503753,PA
-25,Paraíba,Caldas Brandão,2503803,PA
-25,Paraíba,Camalaú,2503902,PA
-25,Paraíba,Campina Grande,2504009,PA
-25,Paraíba,Capim,2504033,PA
-25,Paraíba,Caraúbas,2504074,PA
-25,Paraíba,Carrapateira,2504108,PA
-25,Paraíba,Casserengue,2504157,PA
-25,Paraíba,Catingueira,2504207,PA
-25,Paraíba,Catolé do Rocha,2504306,PA
-25,Paraíba,Caturité,2504355,PA
-25,Paraíba,Conceição,2504405,PA
-25,Paraíba,Condado,2504504,PA
-25,Paraíba,Conde,2504603,PA
-25,Paraíba,Congo,2504702,PA
-25,Paraíba,Coremas,2504801,PA
-25,Paraíba,Coxixola,2504850,PA
-25,Paraíba,Cruz do Espírito Santo,2504900,PA
-25,Paraíba,Cubati,2505006,PA
-25,Paraíba,Cuité,2505105,PA
-25,Paraíba,Cuité de Mamanguape,2505238,PA
-25,Paraíba,Cuitegi,2505204,PA
-25,Paraíba,Curral de Cima,2505279,PA
-25,Paraíba,Curral Velho,2505303,PA
-25,Paraíba,Damião,2505352,PA
-25,Paraíba,Desterro,2505402,PA
-25,Paraíba,Diamante,2505600,PA
-25,Paraíba,Dona Inês,2505709,PA
-25,Paraíba,Duas Estradas,2505808,PA
-25,Paraíba,Emas,2505907,PA
-25,Paraíba,Esperança,2506004,PA
-25,Paraíba,Fagundes,2506103,PA
-25,Paraíba,Frei Martinho,2506202,PA
-25,Paraíba,Gado Bravo,2506251,PA
-25,Paraíba,Guarabira,2506301,PA
-25,Paraíba,Gurinhém,2506400,PA
-25,Paraíba,Gurjão,2506509,PA
-25,Paraíba,Ibiara,2506608,PA
-25,Paraíba,Igaracy,2502607,PA
-25,Paraíba,Imaculada,2506707,PA
-25,Paraíba,Ingá,2506806,PA
-25,Paraíba,Itabaiana,2506905,PA
-25,Paraíba,Itaporanga,2507002,PA
-25,Paraíba,Itapororoca,2507101,PA
-25,Paraíba,Itatuba,2507200,PA
-25,Paraíba,Jacaraú,2507309,PA
-25,Paraíba,Jericó,2507408,PA
-25,Paraíba,João Pessoa,2507507,PA
-25,Paraíba,Joca Claudino,2513653,PA
-25,Paraíba,Juarez Távora,2507606,PA
-25,Paraíba,Juazeirinho,2507705,PA
-25,Paraíba,Junco do Seridó,2507804,PA
-25,Paraíba,Juripiranga,2507903,PA
-25,Paraíba,Juru,2508000,PA
-25,Paraíba,Lagoa,2508109,PA
-25,Paraíba,Lagoa de Dentro,2508208,PA
-25,Paraíba,Lagoa Seca,2508307,PA
-25,Paraíba,Lastro,2508406,PA
-25,Paraíba,Livramento,2508505,PA
-25,Paraíba,Logradouro,2508554,PA
-25,Paraíba,Lucena,2508604,PA
-25,Paraíba,Mãe d'Água,2508703,PA
-25,Paraíba,Malta,2508802,PA
-25,Paraíba,Mamanguape,2508901,PA
-25,Paraíba,Manaíra,2509008,PA
-25,Paraíba,Marcação,2509057,PA
-25,Paraíba,Mari,2509107,PA
-25,Paraíba,Marizópolis,2509156,PA
-25,Paraíba,Massaranduba,2509206,PA
-25,Paraíba,Mataraca,2509305,PA
-25,Paraíba,Matinhas,2509339,PA
-25,Paraíba,Mato Grosso,2509370,PA
-25,Paraíba,Maturéia,2509396,PA
-25,Paraíba,Mogeiro,2509404,PA
-25,Paraíba,Montadas,2509503,PA
-25,Paraíba,Monte Horebe,2509602,PA
-25,Paraíba,Monteiro,2509701,PA
-25,Paraíba,Mulungu,2509800,PA
-25,Paraíba,Natuba,2509909,PA
-25,Paraíba,Nazarezinho,2510006,PA
-25,Paraíba,Nova Floresta,2510105,PA
-25,Paraíba,Nova Olinda,2510204,PA
-25,Paraíba,Nova Palmeira,2510303,PA
-25,Paraíba,Olho d'Água,2510402,PA
-25,Paraíba,Olivedos,2510501,PA
-25,Paraíba,Ouro Velho,2510600,PA
-25,Paraíba,Parari,2510659,PA
-25,Paraíba,Passagem,2510709,PA
-25,Paraíba,Patos,2510808,PA
-25,Paraíba,Paulista,2510907,PA
-25,Paraíba,Pedra Branca,2511004,PA
-25,Paraíba,Pedra Lavrada,2511103,PA
-25,Paraíba,Pedras de Fogo,2511202,PA
-25,Paraíba,Pedro Régis,2512721,PA
-25,Paraíba,Piancó,2511301,PA
-25,Paraíba,Picuí,2511400,PA
-25,Paraíba,Pilar,2511509,PA
-25,Paraíba,Pilões,2511608,PA
-25,Paraíba,Pilõezinhos,2511707,PA
-25,Paraíba,Pirpirituba,2511806,PA
-25,Paraíba,Pitimbu,2511905,PA
-25,Paraíba,Pocinhos,2512002,PA
-25,Paraíba,Poço Dantas,2512036,PA
-25,Paraíba,Poço de José de Moura,2512077,PA
-25,Paraíba,Pombal,2512101,PA
-25,Paraíba,Prata,2512200,PA
-25,Paraíba,Princesa Isabel,2512309,PA
-25,Paraíba,Puxinanã,2512408,PA
-25,Paraíba,Queimadas,2512507,PA
-25,Paraíba,Quixaba,2512606,PA
-25,Paraíba,Remígio,2512705,PA
-25,Paraíba,Riachão,2512747,PA
-25,Paraíba,Riachão do Bacamarte,2512754,PA
-25,Paraíba,Riachão do Poço,2512762,PA
-25,Paraíba,Riacho de Santo Antônio,2512788,PA
-25,Paraíba,Riacho dos Cavalos,2512804,PA
-25,Paraíba,Rio Tinto,2512903,PA
-25,Paraíba,Salgadinho,2513000,PA
-25,Paraíba,Salgado de São Félix,2513109,PA
-25,Paraíba,Santa Cecília,2513158,PA
-25,Paraíba,Santa Cruz,2513208,PA
-25,Paraíba,Santa Helena,2513307,PA
-25,Paraíba,Santa Inês,2513356,PA
-25,Paraíba,Santa Luzia,2513406,PA
-25,Paraíba,Santa Rita,2513703,PA
-25,Paraíba,Santa Teresinha,2513802,PA
-25,Paraíba,Santana de Mangueira,2513505,PA
-25,Paraíba,Santana dos Garrotes,2513604,PA
-25,Paraíba,Santo André,2513851,PA
-25,Paraíba,São Bentinho,2513927,PA
-25,Paraíba,São Bento,2513901,PA
-25,Paraíba,São Domingos,2513968,PA
-25,Paraíba,São Domingos do Cariri,2513943,PA
-25,Paraíba,São Francisco,2513984,PA
-25,Paraíba,São João do Cariri,2514008,PA
-25,Paraíba,São João do Rio do Peixe,2500700,PA
-25,Paraíba,São João do Tigre,2514107,PA
-25,Paraíba,São José da Lagoa Tapada,2514206,PA
-25,Paraíba,São José de Caiana,2514305,PA
-25,Paraíba,São José de Espinharas,2514404,PA
-25,Paraíba,São José de Piranhas,2514503,PA
-25,Paraíba,São José de Princesa,2514552,PA
-25,Paraíba,São José do Bonfim,2514602,PA
-25,Paraíba,São José do Brejo do Cruz,2514651,PA
-25,Paraíba,São José do Sabugi,2514701,PA
-25,Paraíba,São José dos Cordeiros,2514800,PA
-25,Paraíba,São José dos Ramos,2514453,PA
-25,Paraíba,São Mamede,2514909,PA
-25,Paraíba,São Miguel de Taipu,2515005,PA
-25,Paraíba,São Sebastião de Lagoa de Roça,2515104,PA
-25,Paraíba,São Sebastião do Umbuzeiro,2515203,PA
-25,Paraíba,São Vicente do Seridó,2515401,PA
-25,Paraíba,Sapé,2515302,PA
-25,Paraíba,Serra Branca,2515500,PA
-25,Paraíba,Serra da Raiz,2515609,PA
-25,Paraíba,Serra Grande,2515708,PA
-25,Paraíba,Serra Redonda,2515807,PA
-25,Paraíba,Serraria,2515906,PA
-25,Paraíba,Sertãozinho,2515930,PA
-25,Paraíba,Sobrado,2515971,PA
-25,Paraíba,Solânea,2516003,PA
-25,Paraíba,Soledade,2516102,PA
-25,Paraíba,Sossêgo,2516151,PA
-25,Paraíba,Sousa,2516201,PA
-25,Paraíba,Sumé,2516300,PA
-25,Paraíba,Tacima,2516409,PA
-25,Paraíba,Taperoá,2516508,PA
-25,Paraíba,Tavares,2516607,PA
-25,Paraíba,Teixeira,2516706,PA
-25,Paraíba,Tenório,2516755,PA
-25,Paraíba,Triunfo,2516805,PA
-25,Paraíba,Uiraúna,2516904,PA
-25,Paraíba,Umbuzeiro,2517001,PA
-25,Paraíba,Várzea,2517100,PA
-25,Paraíba,Vieirópolis,2517209,PA
-25,Paraíba,Vista Serrana,2505501,PA
-25,Paraíba,Zabelê,2517407,PA
+25,Paraíba,Água Branca,2500106,PB
+25,Paraíba,Aguiar,2500205,PB
+25,Paraíba,Alagoa Grande,2500304,PB
+25,Paraíba,Alagoa Nova,2500403,PB
+25,Paraíba,Alagoinha,2500502,PB
+25,Paraíba,Alcantil,2500536,PB
+25,Paraíba,Algodão de Jandaíra,2500577,PB
+25,Paraíba,Alhandra,2500601,PB
+25,Paraíba,Amparo,2500734,PB
+25,Paraíba,Aparecida,2500775,PB
+25,Paraíba,Araçagi,2500809,PB
+25,Paraíba,Arara,2500908,PB
+25,Paraíba,Araruna,2501005,PB
+25,Paraíba,Areia,2501104,PB
+25,Paraíba,Areia de Baraúnas,2501153,PB
+25,Paraíba,Areial,2501203,PB
+25,Paraíba,Aroeiras,2501302,PB
+25,Paraíba,Assunção,2501351,PB
+25,Paraíba,Baía da Traição,2501401,PB
+25,Paraíba,Bananeiras,2501500,PB
+25,Paraíba,Baraúna,2501534,PB
+25,Paraíba,Barra de Santa Rosa,2501609,PB
+25,Paraíba,Barra de Santana,2501575,PB
+25,Paraíba,Barra de São Miguel,2501708,PB
+25,Paraíba,Bayeux,2501807,PB
+25,Paraíba,Belém,2501906,PB
+25,Paraíba,Belém do Brejo do Cruz,2502003,PB
+25,Paraíba,Bernardino Batista,2502052,PB
+25,Paraíba,Boa Ventura,2502102,PB
+25,Paraíba,Boa Vista,2502151,PB
+25,Paraíba,Bom Jesus,2502201,PB
+25,Paraíba,Bom Sucesso,2502300,PB
+25,Paraíba,Bonito de Santa Fé,2502409,PB
+25,Paraíba,Boqueirão,2502508,PB
+25,Paraíba,Borborema,2502706,PB
+25,Paraíba,Brejo do Cruz,2502805,PB
+25,Paraíba,Brejo dos Santos,2502904,PB
+25,Paraíba,Caaporã,2503001,PB
+25,Paraíba,Cabaceiras,2503100,PB
+25,Paraíba,Cabedelo,2503209,PB
+25,Paraíba,Cachoeira dos Índios,2503308,PB
+25,Paraíba,Cacimba de Areia,2503407,PB
+25,Paraíba,Cacimba de Dentro,2503506,PB
+25,Paraíba,Cacimbas,2503555,PB
+25,Paraíba,Caiçara,2503605,PB
+25,Paraíba,Cajazeiras,2503704,PB
+25,Paraíba,Cajazeirinhas,2503753,PB
+25,Paraíba,Caldas Brandão,2503803,PB
+25,Paraíba,Camalaú,2503902,PB
+25,Paraíba,Campina Grande,2504009,PB
+25,Paraíba,Capim,2504033,PB
+25,Paraíba,Caraúbas,2504074,PB
+25,Paraíba,Carrapateira,2504108,PB
+25,Paraíba,Casserengue,2504157,PB
+25,Paraíba,Catingueira,2504207,PB
+25,Paraíba,Catolé do Rocha,2504306,PB
+25,Paraíba,Caturité,2504355,PB
+25,Paraíba,Conceição,2504405,PB
+25,Paraíba,Condado,2504504,PB
+25,Paraíba,Conde,2504603,PB
+25,Paraíba,Congo,2504702,PB
+25,Paraíba,Coremas,2504801,PB
+25,Paraíba,Coxixola,2504850,PB
+25,Paraíba,Cruz do Espírito Santo,2504900,PB
+25,Paraíba,Cubati,2505006,PB
+25,Paraíba,Cuité,2505105,PB
+25,Paraíba,Cuité de Mamanguape,2505238,PB
+25,Paraíba,Cuitegi,2505204,PB
+25,Paraíba,Curral de Cima,2505279,PB
+25,Paraíba,Curral Velho,2505303,PB
+25,Paraíba,Damião,2505352,PB
+25,Paraíba,Desterro,2505402,PB
+25,Paraíba,Diamante,2505600,PB
+25,Paraíba,Dona Inês,2505709,PB
+25,Paraíba,Duas Estradas,2505808,PB
+25,Paraíba,Emas,2505907,PB
+25,Paraíba,Esperança,2506004,PB
+25,Paraíba,Fagundes,2506103,PB
+25,Paraíba,Frei Martinho,2506202,PB
+25,Paraíba,Gado Bravo,2506251,PB
+25,Paraíba,Guarabira,2506301,PB
+25,Paraíba,Gurinhém,2506400,PB
+25,Paraíba,Gurjão,2506509,PB
+25,Paraíba,Ibiara,2506608,PB
+25,Paraíba,Igaracy,2502607,PB
+25,Paraíba,Imaculada,2506707,PB
+25,Paraíba,Ingá,2506806,PB
+25,Paraíba,Itabaiana,2506905,PB
+25,Paraíba,Itaporanga,2507002,PB
+25,Paraíba,Itapororoca,2507101,PB
+25,Paraíba,Itatuba,2507200,PB
+25,Paraíba,Jacaraú,2507309,PB
+25,Paraíba,Jericó,2507408,PB
+25,Paraíba,João Pessoa,2507507,PB
+25,Paraíba,Joca Claudino,2513653,PB
+25,Paraíba,Juarez Távora,2507606,PB
+25,Paraíba,Juazeirinho,2507705,PB
+25,Paraíba,Junco do Seridó,2507804,PB
+25,Paraíba,Juripiranga,2507903,PB
+25,Paraíba,Juru,2508000,PB
+25,Paraíba,Lagoa,2508109,PB
+25,Paraíba,Lagoa de Dentro,2508208,PB
+25,Paraíba,Lagoa Seca,2508307,PB
+25,Paraíba,Lastro,2508406,PB
+25,Paraíba,Livramento,2508505,PB
+25,Paraíba,Logradouro,2508554,PB
+25,Paraíba,Lucena,2508604,PB
+25,Paraíba,Mãe d'Água,2508703,PB
+25,Paraíba,Malta,2508802,PB
+25,Paraíba,Mamanguape,2508901,PB
+25,Paraíba,Manaíra,2509008,PB
+25,Paraíba,Marcação,2509057,PB
+25,Paraíba,Mari,2509107,PB
+25,Paraíba,Marizópolis,2509156,PB
+25,Paraíba,Massaranduba,2509206,PB
+25,Paraíba,Mataraca,2509305,PB
+25,Paraíba,Matinhas,2509339,PB
+25,Paraíba,Mato Grosso,2509370,PB
+25,Paraíba,Maturéia,2509396,PB
+25,Paraíba,Mogeiro,2509404,PB
+25,Paraíba,Montadas,2509503,PB
+25,Paraíba,Monte Horebe,2509602,PB
+25,Paraíba,Monteiro,2509701,PB
+25,Paraíba,Mulungu,2509800,PB
+25,Paraíba,Natuba,2509909,PB
+25,Paraíba,Nazarezinho,2510006,PB
+25,Paraíba,Nova Floresta,2510105,PB
+25,Paraíba,Nova Olinda,2510204,PB
+25,Paraíba,Nova Palmeira,2510303,PB
+25,Paraíba,Olho d'Água,2510402,PB
+25,Paraíba,Olivedos,2510501,PB
+25,Paraíba,Ouro Velho,2510600,PB
+25,Paraíba,Parari,2510659,PB
+25,Paraíba,Passagem,2510709,PB
+25,Paraíba,Patos,2510808,PB
+25,Paraíba,Paulista,2510907,PB
+25,Paraíba,Pedra Branca,2511004,PB
+25,Paraíba,Pedra Lavrada,2511103,PB
+25,Paraíba,Pedras de Fogo,2511202,PB
+25,Paraíba,Pedro Régis,2512721,PB
+25,Paraíba,Piancó,2511301,PB
+25,Paraíba,Picuí,2511400,PB
+25,Paraíba,Pilar,2511509,PB
+25,Paraíba,Pilões,2511608,PB
+25,Paraíba,Pilõezinhos,2511707,PB
+25,Paraíba,Pirpirituba,2511806,PB
+25,Paraíba,Pitimbu,2511905,PB
+25,Paraíba,Pocinhos,2512002,PB
+25,Paraíba,Poço Dantas,2512036,PB
+25,Paraíba,Poço de José de Moura,2512077,PB
+25,Paraíba,Pombal,2512101,PB
+25,Paraíba,Prata,2512200,PB
+25,Paraíba,Princesa Isabel,2512309,PB
+25,Paraíba,Puxinanã,2512408,PB
+25,Paraíba,Queimadas,2512507,PB
+25,Paraíba,Quixaba,2512606,PB
+25,Paraíba,Remígio,2512705,PB
+25,Paraíba,Riachão,2512747,PB
+25,Paraíba,Riachão do Bacamarte,2512754,PB
+25,Paraíba,Riachão do Poço,2512762,PB
+25,Paraíba,Riacho de Santo Antônio,2512788,PB
+25,Paraíba,Riacho dos Cavalos,2512804,PB
+25,Paraíba,Rio Tinto,2512903,PB
+25,Paraíba,Salgadinho,2513000,PB
+25,Paraíba,Salgado de São Félix,2513109,PB
+25,Paraíba,Santa Cecília,2513158,PB
+25,Paraíba,Santa Cruz,2513208,PB
+25,Paraíba,Santa Helena,2513307,PB
+25,Paraíba,Santa Inês,2513356,PB
+25,Paraíba,Santa Luzia,2513406,PB
+25,Paraíba,Santa Rita,2513703,PB
+25,Paraíba,Santa Teresinha,2513802,PB
+25,Paraíba,Santana de Mangueira,2513505,PB
+25,Paraíba,Santana dos Garrotes,2513604,PB
+25,Paraíba,Santo André,2513851,PB
+25,Paraíba,São Bentinho,2513927,PB
+25,Paraíba,São Bento,2513901,PB
+25,Paraíba,São Domingos,2513968,PB
+25,Paraíba,São Domingos do Cariri,2513943,PB
+25,Paraíba,São Francisco,2513984,PB
+25,Paraíba,São João do Cariri,2514008,PB
+25,Paraíba,São João do Rio do Peixe,2500700,PB
+25,Paraíba,São João do Tigre,2514107,PB
+25,Paraíba,São José da Lagoa Tapada,2514206,PB
+25,Paraíba,São José de Caiana,2514305,PB
+25,Paraíba,São José de Espinharas,2514404,PB
+25,Paraíba,São José de Piranhas,2514503,PB
+25,Paraíba,São José de Princesa,2514552,PB
+25,Paraíba,São José do Bonfim,2514602,PB
+25,Paraíba,São José do Brejo do Cruz,2514651,PB
+25,Paraíba,São José do Sabugi,2514701,PB
+25,Paraíba,São José dos Cordeiros,2514800,PB
+25,Paraíba,São José dos Ramos,2514453,PB
+25,Paraíba,São Mamede,2514909,PB
+25,Paraíba,São Miguel de Taipu,2515005,PB
+25,Paraíba,São Sebastião de Lagoa de Roça,2515104,PB
+25,Paraíba,São Sebastião do Umbuzeiro,2515203,PB
+25,Paraíba,São Vicente do Seridó,2515401,PB
+25,Paraíba,Sapé,2515302,PB
+25,Paraíba,Serra Branca,2515500,PB
+25,Paraíba,Serra da Raiz,2515609,PB
+25,Paraíba,Serra Grande,2515708,PB
+25,Paraíba,Serra Redonda,2515807,PB
+25,Paraíba,Serraria,2515906,PB
+25,Paraíba,Sertãozinho,2515930,PB
+25,Paraíba,Sobrado,2515971,PB
+25,Paraíba,Solânea,2516003,PB
+25,Paraíba,Soledade,2516102,PB
+25,Paraíba,Sossêgo,2516151,PB
+25,Paraíba,Sousa,2516201,PB
+25,Paraíba,Sumé,2516300,PB
+25,Paraíba,Tacima,2516409,PB
+25,Paraíba,Taperoá,2516508,PB
+25,Paraíba,Tavares,2516607,PB
+25,Paraíba,Teixeira,2516706,PB
+25,Paraíba,Tenório,2516755,PB
+25,Paraíba,Triunfo,2516805,PB
+25,Paraíba,Uiraúna,2516904,PB
+25,Paraíba,Umbuzeiro,2517001,PB
+25,Paraíba,Várzea,2517100,PB
+25,Paraíba,Vieirópolis,2517209,PB
+25,Paraíba,Vista Serrana,2505501,PB
+25,Paraíba,Zabelê,2517407,PB
 26,Pernambuco,Abreu e Lima,2600054,PE
 26,Pernambuco,Afogados da Ingazeira,2600104,PE
 26,Pernambuco,Afrânio,2600203,PE
@@ -3911,405 +3911,405 @@ UF,Nome_UF,Município,Codigo_Municipio,Sigla_UF
 35,São Paulo,Votorantim,3557006,SP
 35,São Paulo,Votuporanga,3557105,SP
 35,São Paulo,Zacarias,3557154,SP
-41,Paraná,Abatiá,4100103,PA
-41,Paraná,Adrianópolis,4100202,PA
-41,Paraná,Agudos do Sul,4100301,PA
-41,Paraná,Almirante Tamandaré,4100400,PA
-41,Paraná,Altamira do Paraná,4100459,PA
-41,Paraná,Alto Paraíso,4128625,PA
-41,Paraná,Alto Paraná,4100608,PA
-41,Paraná,Alto Piquiri,4100707,PA
-41,Paraná,Altônia,4100509,PA
-41,Paraná,Alvorada do Sul,4100806,PA
-41,Paraná,Amaporã,4100905,PA
-41,Paraná,Ampére,4101002,PA
-41,Paraná,Anahy,4101051,PA
-41,Paraná,Andirá,4101101,PA
-41,Paraná,Ângulo,4101150,PA
-41,Paraná,Antonina,4101200,PA
-41,Paraná,Antônio Olinto,4101309,PA
-41,Paraná,Apucarana,4101408,PA
-41,Paraná,Arapongas,4101507,PA
-41,Paraná,Arapoti,4101606,PA
-41,Paraná,Arapuã,4101655,PA
-41,Paraná,Araruna,4101705,PA
-41,Paraná,Araucária,4101804,PA
-41,Paraná,Ariranha do Ivaí,4101853,PA
-41,Paraná,Assaí,4101903,PA
-41,Paraná,Assis Chateaubriand,4102000,PA
-41,Paraná,Astorga,4102109,PA
-41,Paraná,Atalaia,4102208,PA
-41,Paraná,Balsa Nova,4102307,PA
-41,Paraná,Bandeirantes,4102406,PA
-41,Paraná,Barbosa Ferraz,4102505,PA
-41,Paraná,Barra do Jacaré,4102703,PA
-41,Paraná,Barracão,4102604,PA
-41,Paraná,Bela Vista da Caroba,4102752,PA
-41,Paraná,Bela Vista do Paraíso,4102802,PA
-41,Paraná,Bituruna,4102901,PA
-41,Paraná,Boa Esperança,4103008,PA
-41,Paraná,Boa Esperança do Iguaçu,4103024,PA
-41,Paraná,Boa Ventura de São Roque,4103040,PA
-41,Paraná,Boa Vista da Aparecida,4103057,PA
-41,Paraná,Bocaiúva do Sul,4103107,PA
-41,Paraná,Bom Jesus do Sul,4103156,PA
-41,Paraná,Bom Sucesso,4103206,PA
-41,Paraná,Bom Sucesso do Sul,4103222,PA
-41,Paraná,Borrazópolis,4103305,PA
-41,Paraná,Braganey,4103354,PA
-41,Paraná,Brasilândia do Sul,4103370,PA
-41,Paraná,Cafeara,4103404,PA
-41,Paraná,Cafelândia,4103453,PA
-41,Paraná,Cafezal do Sul,4103479,PA
-41,Paraná,Califórnia,4103503,PA
-41,Paraná,Cambará,4103602,PA
-41,Paraná,Cambé,4103701,PA
-41,Paraná,Cambira,4103800,PA
-41,Paraná,Campina da Lagoa,4103909,PA
-41,Paraná,Campina do Simão,4103958,PA
-41,Paraná,Campina Grande do Sul,4104006,PA
-41,Paraná,Campo Bonito,4104055,PA
-41,Paraná,Campo do Tenente,4104105,PA
-41,Paraná,Campo Largo,4104204,PA
-41,Paraná,Campo Magro,4104253,PA
-41,Paraná,Campo Mourão,4104303,PA
-41,Paraná,Cândido de Abreu,4104402,PA
-41,Paraná,Candói,4104428,PA
-41,Paraná,Cantagalo,4104451,PA
-41,Paraná,Capanema,4104501,PA
-41,Paraná,Capitão Leônidas Marques,4104600,PA
-41,Paraná,Carambeí,4104659,PA
-41,Paraná,Carlópolis,4104709,PA
-41,Paraná,Cascavel,4104808,PA
-41,Paraná,Castro,4104907,PA
-41,Paraná,Catanduvas,4105003,PA
-41,Paraná,Centenário do Sul,4105102,PA
-41,Paraná,Cerro Azul,4105201,PA
-41,Paraná,Céu Azul,4105300,PA
-41,Paraná,Chopinzinho,4105409,PA
-41,Paraná,Cianorte,4105508,PA
-41,Paraná,Cidade Gaúcha,4105607,PA
-41,Paraná,Clevelândia,4105706,PA
-41,Paraná,Colombo,4105805,PA
-41,Paraná,Colorado,4105904,PA
-41,Paraná,Congonhinhas,4106001,PA
-41,Paraná,Conselheiro Mairinck,4106100,PA
-41,Paraná,Contenda,4106209,PA
-41,Paraná,Corbélia,4106308,PA
-41,Paraná,Cornélio Procópio,4106407,PA
-41,Paraná,Coronel Domingos Soares,4106456,PA
-41,Paraná,Coronel Vivida,4106506,PA
-41,Paraná,Corumbataí do Sul,4106555,PA
-41,Paraná,Cruz Machado,4106803,PA
-41,Paraná,Cruzeiro do Iguaçu,4106571,PA
-41,Paraná,Cruzeiro do Oeste,4106605,PA
-41,Paraná,Cruzeiro do Sul,4106704,PA
-41,Paraná,Cruzmaltina,4106852,PA
-41,Paraná,Curitiba,4106902,PA
-41,Paraná,Curiúva,4107009,PA
-41,Paraná,Diamante do Norte,4107108,PA
-41,Paraná,Diamante do Sul,4107124,PA
-41,Paraná,Diamante D'Oeste,4107157,PA
-41,Paraná,Dois Vizinhos,4107207,PA
-41,Paraná,Douradina,4107256,PA
-41,Paraná,Doutor Camargo,4107306,PA
-41,Paraná,Doutor Ulysses,4128633,PA
-41,Paraná,Enéas Marques,4107405,PA
-41,Paraná,Engenheiro Beltrão,4107504,PA
-41,Paraná,Entre Rios do Oeste,4107538,PA
-41,Paraná,Esperança Nova,4107520,PA
-41,Paraná,Espigão Alto do Iguaçu,4107546,PA
-41,Paraná,Farol,4107553,PA
-41,Paraná,Faxinal,4107603,PA
-41,Paraná,Fazenda Rio Grande,4107652,PA
-41,Paraná,Fênix,4107702,PA
-41,Paraná,Fernandes Pinheiro,4107736,PA
-41,Paraná,Figueira,4107751,PA
-41,Paraná,Flor da Serra do Sul,4107850,PA
-41,Paraná,Floraí,4107801,PA
-41,Paraná,Floresta,4107900,PA
-41,Paraná,Florestópolis,4108007,PA
-41,Paraná,Flórida,4108106,PA
-41,Paraná,Formosa do Oeste,4108205,PA
-41,Paraná,Foz do Iguaçu,4108304,PA
-41,Paraná,Foz do Jordão,4108452,PA
-41,Paraná,Francisco Alves,4108320,PA
-41,Paraná,Francisco Beltrão,4108403,PA
-41,Paraná,General Carneiro,4108502,PA
-41,Paraná,Godoy Moreira,4108551,PA
-41,Paraná,Goioerê,4108601,PA
-41,Paraná,Goioxim,4108650,PA
-41,Paraná,Grandes Rios,4108700,PA
-41,Paraná,Guaíra,4108809,PA
-41,Paraná,Guairaçá,4108908,PA
-41,Paraná,Guamiranga,4108957,PA
-41,Paraná,Guapirama,4109005,PA
-41,Paraná,Guaporema,4109104,PA
-41,Paraná,Guaraci,4109203,PA
-41,Paraná,Guaraniaçu,4109302,PA
-41,Paraná,Guarapuava,4109401,PA
-41,Paraná,Guaraqueçaba,4109500,PA
-41,Paraná,Guaratuba,4109609,PA
-41,Paraná,Honório Serpa,4109658,PA
-41,Paraná,Ibaiti,4109708,PA
-41,Paraná,Ibema,4109757,PA
-41,Paraná,Ibiporã,4109807,PA
-41,Paraná,Icaraíma,4109906,PA
-41,Paraná,Iguaraçu,4110003,PA
-41,Paraná,Iguatu,4110052,PA
-41,Paraná,Imbaú,4110078,PA
-41,Paraná,Imbituva,4110102,PA
-41,Paraná,Inácio Martins,4110201,PA
-41,Paraná,Inajá,4110300,PA
-41,Paraná,Indianópolis,4110409,PA
-41,Paraná,Ipiranga,4110508,PA
-41,Paraná,Iporã,4110607,PA
-41,Paraná,Iracema do Oeste,4110656,PA
-41,Paraná,Irati,4110706,PA
-41,Paraná,Iretama,4110805,PA
-41,Paraná,Itaguajé,4110904,PA
-41,Paraná,Itaipulândia,4110953,PA
-41,Paraná,Itambaracá,4111001,PA
-41,Paraná,Itambé,4111100,PA
-41,Paraná,Itapejara d'Oeste,4111209,PA
-41,Paraná,Itaperuçu,4111258,PA
-41,Paraná,Itaúna do Sul,4111308,PA
-41,Paraná,Ivaí,4111407,PA
-41,Paraná,Ivaiporã,4111506,PA
-41,Paraná,Ivaté,4111555,PA
-41,Paraná,Ivatuba,4111605,PA
-41,Paraná,Jaboti,4111704,PA
-41,Paraná,Jacarezinho,4111803,PA
-41,Paraná,Jaguapitã,4111902,PA
-41,Paraná,Jaguariaíva,4112009,PA
-41,Paraná,Jandaia do Sul,4112108,PA
-41,Paraná,Janiópolis,4112207,PA
-41,Paraná,Japira,4112306,PA
-41,Paraná,Japurá,4112405,PA
-41,Paraná,Jardim Alegre,4112504,PA
-41,Paraná,Jardim Olinda,4112603,PA
-41,Paraná,Jataizinho,4112702,PA
-41,Paraná,Jesuítas,4112751,PA
-41,Paraná,Joaquim Távora,4112801,PA
-41,Paraná,Jundiaí do Sul,4112900,PA
-41,Paraná,Juranda,4112959,PA
-41,Paraná,Jussara,4113007,PA
-41,Paraná,Kaloré,4113106,PA
-41,Paraná,Lapa,4113205,PA
-41,Paraná,Laranjal,4113254,PA
-41,Paraná,Laranjeiras do Sul,4113304,PA
-41,Paraná,Leópolis,4113403,PA
-41,Paraná,Lidianópolis,4113429,PA
-41,Paraná,Lindoeste,4113452,PA
-41,Paraná,Loanda,4113502,PA
-41,Paraná,Lobato,4113601,PA
-41,Paraná,Londrina,4113700,PA
-41,Paraná,Luiziana,4113734,PA
-41,Paraná,Lunardelli,4113759,PA
-41,Paraná,Lupionópolis,4113809,PA
-41,Paraná,Mallet,4113908,PA
-41,Paraná,Mamborê,4114005,PA
-41,Paraná,Mandaguaçu,4114104,PA
-41,Paraná,Mandaguari,4114203,PA
-41,Paraná,Mandirituba,4114302,PA
-41,Paraná,Manfrinópolis,4114351,PA
-41,Paraná,Mangueirinha,4114401,PA
-41,Paraná,Manoel Ribas,4114500,PA
-41,Paraná,Marechal Cândido Rondon,4114609,PA
-41,Paraná,Maria Helena,4114708,PA
-41,Paraná,Marialva,4114807,PA
-41,Paraná,Marilândia do Sul,4114906,PA
-41,Paraná,Marilena,4115002,PA
-41,Paraná,Mariluz,4115101,PA
-41,Paraná,Maringá,4115200,PA
-41,Paraná,Mariópolis,4115309,PA
-41,Paraná,Maripá,4115358,PA
-41,Paraná,Marmeleiro,4115408,PA
-41,Paraná,Marquinho,4115457,PA
-41,Paraná,Marumbi,4115507,PA
-41,Paraná,Matelândia,4115606,PA
-41,Paraná,Matinhos,4115705,PA
-41,Paraná,Mato Rico,4115739,PA
-41,Paraná,Mauá da Serra,4115754,PA
-41,Paraná,Medianeira,4115804,PA
-41,Paraná,Mercedes,4115853,PA
-41,Paraná,Mirador,4115903,PA
-41,Paraná,Miraselva,4116000,PA
-41,Paraná,Missal,4116059,PA
-41,Paraná,Moreira Sales,4116109,PA
-41,Paraná,Morretes,4116208,PA
-41,Paraná,Munhoz de Melo,4116307,PA
-41,Paraná,Nossa Senhora das Graças,4116406,PA
-41,Paraná,Nova Aliança do Ivaí,4116505,PA
-41,Paraná,Nova América da Colina,4116604,PA
-41,Paraná,Nova Aurora,4116703,PA
-41,Paraná,Nova Cantu,4116802,PA
-41,Paraná,Nova Esperança,4116901,PA
-41,Paraná,Nova Esperança do Sudoeste,4116950,PA
-41,Paraná,Nova Fátima,4117008,PA
-41,Paraná,Nova Laranjeiras,4117057,PA
-41,Paraná,Nova Londrina,4117107,PA
-41,Paraná,Nova Olímpia,4117206,PA
-41,Paraná,Nova Prata do Iguaçu,4117255,PA
-41,Paraná,Nova Santa Bárbara,4117214,PA
-41,Paraná,Nova Santa Rosa,4117222,PA
-41,Paraná,Nova Tebas,4117271,PA
-41,Paraná,Novo Itacolomi,4117297,PA
-41,Paraná,Ortigueira,4117305,PA
-41,Paraná,Ourizona,4117404,PA
-41,Paraná,Ouro Verde do Oeste,4117453,PA
-41,Paraná,Paiçandu,4117503,PA
-41,Paraná,Palmas,4117602,PA
-41,Paraná,Palmeira,4117701,PA
-41,Paraná,Palmital,4117800,PA
-41,Paraná,Palotina,4117909,PA
-41,Paraná,Paraíso do Norte,4118006,PA
-41,Paraná,Paranacity,4118105,PA
-41,Paraná,Paranaguá,4118204,PA
-41,Paraná,Paranapoema,4118303,PA
-41,Paraná,Paranavaí,4118402,PA
-41,Paraná,Pato Bragado,4118451,PA
-41,Paraná,Pato Branco,4118501,PA
-41,Paraná,Paula Freitas,4118600,PA
-41,Paraná,Paulo Frontin,4118709,PA
-41,Paraná,Peabiru,4118808,PA
-41,Paraná,Perobal,4118857,PA
-41,Paraná,Pérola,4118907,PA
-41,Paraná,Pérola d'Oeste,4119004,PA
-41,Paraná,Piên,4119103,PA
-41,Paraná,Pinhais,4119152,PA
-41,Paraná,Pinhal de São Bento,4119251,PA
-41,Paraná,Pinhalão,4119202,PA
-41,Paraná,Pinhão,4119301,PA
-41,Paraná,Piraí do Sul,4119400,PA
-41,Paraná,Piraquara,4119509,PA
-41,Paraná,Pitanga,4119608,PA
-41,Paraná,Pitangueiras,4119657,PA
-41,Paraná,Planaltina do Paraná,4119707,PA
-41,Paraná,Planalto,4119806,PA
-41,Paraná,Ponta Grossa,4119905,PA
-41,Paraná,Pontal do Paraná,4119954,PA
-41,Paraná,Porecatu,4120002,PA
-41,Paraná,Porto Amazonas,4120101,PA
-41,Paraná,Porto Barreiro,4120150,PA
-41,Paraná,Porto Rico,4120200,PA
-41,Paraná,Porto Vitória,4120309,PA
-41,Paraná,Prado Ferreira,4120333,PA
-41,Paraná,Pranchita,4120358,PA
-41,Paraná,Presidente Castelo Branco,4120408,PA
-41,Paraná,Primeiro de Maio,4120507,PA
-41,Paraná,Prudentópolis,4120606,PA
-41,Paraná,Quarto Centenário,4120655,PA
-41,Paraná,Quatiguá,4120705,PA
-41,Paraná,Quatro Barras,4120804,PA
-41,Paraná,Quatro Pontes,4120853,PA
-41,Paraná,Quedas do Iguaçu,4120903,PA
-41,Paraná,Querência do Norte,4121000,PA
-41,Paraná,Quinta do Sol,4121109,PA
-41,Paraná,Quitandinha,4121208,PA
-41,Paraná,Ramilândia,4121257,PA
-41,Paraná,Rancho Alegre,4121307,PA
-41,Paraná,Rancho Alegre D'Oeste,4121356,PA
-41,Paraná,Realeza,4121406,PA
-41,Paraná,Rebouças,4121505,PA
-41,Paraná,Renascença,4121604,PA
-41,Paraná,Reserva,4121703,PA
-41,Paraná,Reserva do Iguaçu,4121752,PA
-41,Paraná,Ribeirão Claro,4121802,PA
-41,Paraná,Ribeirão do Pinhal,4121901,PA
-41,Paraná,Rio Azul,4122008,PA
-41,Paraná,Rio Bom,4122107,PA
-41,Paraná,Rio Bonito do Iguaçu,4122156,PA
-41,Paraná,Rio Branco do Ivaí,4122172,PA
-41,Paraná,Rio Branco do Sul,4122206,PA
-41,Paraná,Rio Negro,4122305,PA
-41,Paraná,Rolândia,4122404,PA
-41,Paraná,Roncador,4122503,PA
-41,Paraná,Rondon,4122602,PA
-41,Paraná,Rosário do Ivaí,4122651,PA
-41,Paraná,Sabáudia,4122701,PA
-41,Paraná,Salgado Filho,4122800,PA
-41,Paraná,Salto do Itararé,4122909,PA
-41,Paraná,Salto do Lontra,4123006,PA
-41,Paraná,Santa Amélia,4123105,PA
-41,Paraná,Santa Cecília do Pavão,4123204,PA
-41,Paraná,Santa Cruz de Monte Castelo,4123303,PA
-41,Paraná,Santa Fé,4123402,PA
-41,Paraná,Santa Helena,4123501,PA
-41,Paraná,Santa Inês,4123600,PA
-41,Paraná,Santa Isabel do Ivaí,4123709,PA
-41,Paraná,Santa Izabel do Oeste,4123808,PA
-41,Paraná,Santa Lúcia,4123824,PA
-41,Paraná,Santa Maria do Oeste,4123857,PA
-41,Paraná,Santa Mariana,4123907,PA
-41,Paraná,Santa Mônica,4123956,PA
-41,Paraná,Santa Tereza do Oeste,4124020,PA
-41,Paraná,Santa Terezinha de Itaipu,4124053,PA
-41,Paraná,Santana do Itararé,4124004,PA
-41,Paraná,Santo Antônio da Platina,4124103,PA
-41,Paraná,Santo Antônio do Caiuá,4124202,PA
-41,Paraná,Santo Antônio do Paraíso,4124301,PA
-41,Paraná,Santo Antônio do Sudoeste,4124400,PA
-41,Paraná,Santo Inácio,4124509,PA
-41,Paraná,São Carlos do Ivaí,4124608,PA
-41,Paraná,São Jerônimo da Serra,4124707,PA
-41,Paraná,São João,4124806,PA
-41,Paraná,São João do Caiuá,4124905,PA
-41,Paraná,São João do Ivaí,4125001,PA
-41,Paraná,São João do Triunfo,4125100,PA
-41,Paraná,São Jorge do Ivaí,4125308,PA
-41,Paraná,São Jorge do Patrocínio,4125357,PA
-41,Paraná,São Jorge d'Oeste,4125209,PA
-41,Paraná,São José da Boa Vista,4125407,PA
-41,Paraná,São José das Palmeiras,4125456,PA
-41,Paraná,São José dos Pinhais,4125506,PA
-41,Paraná,São Manoel do Paraná,4125555,PA
-41,Paraná,São Mateus do Sul,4125605,PA
-41,Paraná,São Miguel do Iguaçu,4125704,PA
-41,Paraná,São Pedro do Iguaçu,4125753,PA
-41,Paraná,São Pedro do Ivaí,4125803,PA
-41,Paraná,São Pedro do Paraná,4125902,PA
-41,Paraná,São Sebastião da Amoreira,4126009,PA
-41,Paraná,São Tomé,4126108,PA
-41,Paraná,Sapopema,4126207,PA
-41,Paraná,Sarandi,4126256,PA
-41,Paraná,Saudade do Iguaçu,4126272,PA
-41,Paraná,Sengés,4126306,PA
-41,Paraná,Serranópolis do Iguaçu,4126355,PA
-41,Paraná,Sertaneja,4126405,PA
-41,Paraná,Sertanópolis,4126504,PA
-41,Paraná,Siqueira Campos,4126603,PA
-41,Paraná,Sulina,4126652,PA
-41,Paraná,Tamarana,4126678,PA
-41,Paraná,Tamboara,4126702,PA
-41,Paraná,Tapejara,4126801,PA
-41,Paraná,Tapira,4126900,PA
-41,Paraná,Teixeira Soares,4127007,PA
-41,Paraná,Telêmaco Borba,4127106,PA
-41,Paraná,Terra Boa,4127205,PA
-41,Paraná,Terra Rica,4127304,PA
-41,Paraná,Terra Roxa,4127403,PA
-41,Paraná,Tibagi,4127502,PA
-41,Paraná,Tijucas do Sul,4127601,PA
-41,Paraná,Toledo,4127700,PA
-41,Paraná,Tomazina,4127809,PA
-41,Paraná,Três Barras do Paraná,4127858,PA
-41,Paraná,Tunas do Paraná,4127882,PA
-41,Paraná,Tuneiras do Oeste,4127908,PA
-41,Paraná,Tupãssi,4127957,PA
-41,Paraná,Turvo,4127965,PA
-41,Paraná,Ubiratã,4128005,PA
-41,Paraná,Umuarama,4128104,PA
-41,Paraná,União da Vitória,4128203,PA
-41,Paraná,Uniflor,4128302,PA
-41,Paraná,Uraí,4128401,PA
-41,Paraná,Ventania,4128534,PA
-41,Paraná,Vera Cruz do Oeste,4128559,PA
-41,Paraná,Verê,4128609,PA
-41,Paraná,Virmond,4128658,PA
-41,Paraná,Vitorino,4128708,PA
-41,Paraná,Wenceslau Braz,4128500,PA
-41,Paraná,Xambrê,4128807,PA
+41,Paraná,Abatiá,4100103,PR
+41,Paraná,Adrianópolis,4100202,PR
+41,Paraná,Agudos do Sul,4100301,PR
+41,Paraná,Almirante Tamandaré,4100400,PR
+41,Paraná,Altamira do Paraná,4100459,PR
+41,Paraná,Alto Paraíso,4128625,PR
+41,Paraná,Alto Paraná,4100608,PR
+41,Paraná,Alto Piquiri,4100707,PR
+41,Paraná,Altônia,4100509,PR
+41,Paraná,Alvorada do Sul,4100806,PR
+41,Paraná,Amaporã,4100905,PR
+41,Paraná,Ampére,4101002,PR
+41,Paraná,Anahy,4101051,PR
+41,Paraná,Andirá,4101101,PR
+41,Paraná,Ângulo,4101150,PR
+41,Paraná,Antonina,4101200,PR
+41,Paraná,Antônio Olinto,4101309,PR
+41,Paraná,Apucarana,4101408,PR
+41,Paraná,Arapongas,4101507,PR
+41,Paraná,Arapoti,4101606,PR
+41,Paraná,Arapuã,4101655,PR
+41,Paraná,Araruna,4101705,PR
+41,Paraná,Araucária,4101804,PR
+41,Paraná,Ariranha do Ivaí,4101853,PR
+41,Paraná,Assaí,4101903,PR
+41,Paraná,Assis Chateaubriand,4102000,PR
+41,Paraná,Astorga,4102109,PR
+41,Paraná,Atalaia,4102208,PR
+41,Paraná,Balsa Nova,4102307,PR
+41,Paraná,Bandeirantes,4102406,PR
+41,Paraná,Barbosa Ferraz,4102505,PR
+41,Paraná,Barra do Jacaré,4102703,PR
+41,Paraná,Barracão,4102604,PR
+41,Paraná,Bela Vista da Caroba,4102752,PR
+41,Paraná,Bela Vista do Paraíso,4102802,PR
+41,Paraná,Bituruna,4102901,PR
+41,Paraná,Boa Esperança,4103008,PR
+41,Paraná,Boa Esperança do Iguaçu,4103024,PR
+41,Paraná,Boa Ventura de São Roque,4103040,PR
+41,Paraná,Boa Vista da Aparecida,4103057,PR
+41,Paraná,Bocaiúva do Sul,4103107,PR
+41,Paraná,Bom Jesus do Sul,4103156,PR
+41,Paraná,Bom Sucesso,4103206,PR
+41,Paraná,Bom Sucesso do Sul,4103222,PR
+41,Paraná,Borrazópolis,4103305,PR
+41,Paraná,Braganey,4103354,PR
+41,Paraná,Brasilândia do Sul,4103370,PR
+41,Paraná,Cafeara,4103404,PR
+41,Paraná,Cafelândia,4103453,PR
+41,Paraná,Cafezal do Sul,4103479,PR
+41,Paraná,Califórnia,4103503,PR
+41,Paraná,Cambará,4103602,PR
+41,Paraná,Cambé,4103701,PR
+41,Paraná,Cambira,4103800,PR
+41,Paraná,Campina da Lagoa,4103909,PR
+41,Paraná,Campina do Simão,4103958,PR
+41,Paraná,Campina Grande do Sul,4104006,PR
+41,Paraná,Campo Bonito,4104055,PR
+41,Paraná,Campo do Tenente,4104105,PR
+41,Paraná,Campo Largo,4104204,PR
+41,Paraná,Campo Magro,4104253,PR
+41,Paraná,Campo Mourão,4104303,PR
+41,Paraná,Cândido de Abreu,4104402,PR
+41,Paraná,Candói,4104428,PR
+41,Paraná,Cantagalo,4104451,PR
+41,Paraná,Capanema,4104501,PR
+41,Paraná,Capitão Leônidas Marques,4104600,PR
+41,Paraná,Carambeí,4104659,PR
+41,Paraná,Carlópolis,4104709,PR
+41,Paraná,Cascavel,4104808,PR
+41,Paraná,Castro,4104907,PR
+41,Paraná,Catanduvas,4105003,PR
+41,Paraná,Centenário do Sul,4105102,PR
+41,Paraná,Cerro Azul,4105201,PR
+41,Paraná,Céu Azul,4105300,PR
+41,Paraná,Chopinzinho,4105409,PR
+41,Paraná,Cianorte,4105508,PR
+41,Paraná,Cidade Gaúcha,4105607,PR
+41,Paraná,Clevelândia,4105706,PR
+41,Paraná,Colombo,4105805,PR
+41,Paraná,Colorado,4105904,PR
+41,Paraná,Congonhinhas,4106001,PR
+41,Paraná,Conselheiro Mairinck,4106100,PR
+41,Paraná,Contenda,4106209,PR
+41,Paraná,Corbélia,4106308,PR
+41,Paraná,Cornélio Procópio,4106407,PR
+41,Paraná,Coronel Domingos Soares,4106456,PR
+41,Paraná,Coronel Vivida,4106506,PR
+41,Paraná,Corumbataí do Sul,4106555,PR
+41,Paraná,Cruz Machado,4106803,PR
+41,Paraná,Cruzeiro do Iguaçu,4106571,PR
+41,Paraná,Cruzeiro do Oeste,4106605,PR
+41,Paraná,Cruzeiro do Sul,4106704,PR
+41,Paraná,Cruzmaltina,4106852,PR
+41,Paraná,Curitiba,4106902,PR
+41,Paraná,Curiúva,4107009,PR
+41,Paraná,Diamante do Norte,4107108,PR
+41,Paraná,Diamante do Sul,4107124,PR
+41,Paraná,Diamante D'Oeste,4107157,PR
+41,Paraná,Dois Vizinhos,4107207,PR
+41,Paraná,Douradina,4107256,PR
+41,Paraná,Doutor Camargo,4107306,PR
+41,Paraná,Doutor Ulysses,4128633,PR
+41,Paraná,Enéas Marques,4107405,PR
+41,Paraná,Engenheiro Beltrão,4107504,PR
+41,Paraná,Entre Rios do Oeste,4107538,PR
+41,Paraná,Esperança Nova,4107520,PR
+41,Paraná,Espigão Alto do Iguaçu,4107546,PR
+41,Paraná,Farol,4107553,PR
+41,Paraná,Faxinal,4107603,PR
+41,Paraná,Fazenda Rio Grande,4107652,PR
+41,Paraná,Fênix,4107702,PR
+41,Paraná,Fernandes Pinheiro,4107736,PR
+41,Paraná,Figueira,4107751,PR
+41,Paraná,Flor da Serra do Sul,4107850,PR
+41,Paraná,Floraí,4107801,PR
+41,Paraná,Floresta,4107900,PR
+41,Paraná,Florestópolis,4108007,PR
+41,Paraná,Flórida,4108106,PR
+41,Paraná,Formosa do Oeste,4108205,PR
+41,Paraná,Foz do Iguaçu,4108304,PR
+41,Paraná,Foz do Jordão,4108452,PR
+41,Paraná,Francisco Alves,4108320,PR
+41,Paraná,Francisco Beltrão,4108403,PR
+41,Paraná,General Carneiro,4108502,PR
+41,Paraná,Godoy Moreira,4108551,PR
+41,Paraná,Goioerê,4108601,PR
+41,Paraná,Goioxim,4108650,PR
+41,Paraná,Grandes Rios,4108700,PR
+41,Paraná,Guaíra,4108809,PR
+41,Paraná,Guairaçá,4108908,PR
+41,Paraná,Guamiranga,4108957,PR
+41,Paraná,Guapirama,4109005,PR
+41,Paraná,Guaporema,4109104,PR
+41,Paraná,Guaraci,4109203,PR
+41,Paraná,Guaraniaçu,4109302,PR
+41,Paraná,Guarapuava,4109401,PR
+41,Paraná,Guaraqueçaba,4109500,PR
+41,Paraná,Guaratuba,4109609,PR
+41,Paraná,Honório Serpa,4109658,PR
+41,Paraná,Ibaiti,4109708,PR
+41,Paraná,Ibema,4109757,PR
+41,Paraná,Ibiporã,4109807,PR
+41,Paraná,Icaraíma,4109906,PR
+41,Paraná,Iguaraçu,4110003,PR
+41,Paraná,Iguatu,4110052,PR
+41,Paraná,Imbaú,4110078,PR
+41,Paraná,Imbituva,4110102,PR
+41,Paraná,Inácio Martins,4110201,PR
+41,Paraná,Inajá,4110300,PR
+41,Paraná,Indianópolis,4110409,PR
+41,Paraná,Ipiranga,4110508,PR
+41,Paraná,Iporã,4110607,PR
+41,Paraná,Iracema do Oeste,4110656,PR
+41,Paraná,Irati,4110706,PR
+41,Paraná,Iretama,4110805,PR
+41,Paraná,Itaguajé,4110904,PR
+41,Paraná,Itaipulândia,4110953,PR
+41,Paraná,Itambaracá,4111001,PR
+41,Paraná,Itambé,4111100,PR
+41,Paraná,Itapejara d'Oeste,4111209,PR
+41,Paraná,Itaperuçu,4111258,PR
+41,Paraná,Itaúna do Sul,4111308,PR
+41,Paraná,Ivaí,4111407,PR
+41,Paraná,Ivaiporã,4111506,PR
+41,Paraná,Ivaté,4111555,PR
+41,Paraná,Ivatuba,4111605,PR
+41,Paraná,Jaboti,4111704,PR
+41,Paraná,Jacarezinho,4111803,PR
+41,Paraná,Jaguapitã,4111902,PR
+41,Paraná,Jaguariaíva,4112009,PR
+41,Paraná,Jandaia do Sul,4112108,PR
+41,Paraná,Janiópolis,4112207,PR
+41,Paraná,Japira,4112306,PR
+41,Paraná,Japurá,4112405,PR
+41,Paraná,Jardim Alegre,4112504,PR
+41,Paraná,Jardim Olinda,4112603,PR
+41,Paraná,Jataizinho,4112702,PR
+41,Paraná,Jesuítas,4112751,PR
+41,Paraná,Joaquim Távora,4112801,PR
+41,Paraná,Jundiaí do Sul,4112900,PR
+41,Paraná,Juranda,4112959,PR
+41,Paraná,Jussara,4113007,PR
+41,Paraná,Kaloré,4113106,PR
+41,Paraná,Lapa,4113205,PR
+41,Paraná,Laranjal,4113254,PR
+41,Paraná,Laranjeiras do Sul,4113304,PR
+41,Paraná,Leópolis,4113403,PR
+41,Paraná,Lidianópolis,4113429,PR
+41,Paraná,Lindoeste,4113452,PR
+41,Paraná,Loanda,4113502,PR
+41,Paraná,Lobato,4113601,PR
+41,Paraná,Londrina,4113700,PR
+41,Paraná,Luiziana,4113734,PR
+41,Paraná,Lunardelli,4113759,PR
+41,Paraná,Lupionópolis,4113809,PR
+41,Paraná,Mallet,4113908,PR
+41,Paraná,Mamborê,4114005,PR
+41,Paraná,Mandaguaçu,4114104,PR
+41,Paraná,Mandaguari,4114203,PR
+41,Paraná,Mandirituba,4114302,PR
+41,Paraná,Manfrinópolis,4114351,PR
+41,Paraná,Mangueirinha,4114401,PR
+41,Paraná,Manoel Ribas,4114500,PR
+41,Paraná,Marechal Cândido Rondon,4114609,PR
+41,Paraná,Maria Helena,4114708,PR
+41,Paraná,Marialva,4114807,PR
+41,Paraná,Marilândia do Sul,4114906,PR
+41,Paraná,Marilena,4115002,PR
+41,Paraná,Mariluz,4115101,PR
+41,Paraná,Maringá,4115200,PR
+41,Paraná,Mariópolis,4115309,PR
+41,Paraná,Maripá,4115358,PR
+41,Paraná,Marmeleiro,4115408,PR
+41,Paraná,Marquinho,4115457,PR
+41,Paraná,Marumbi,4115507,PR
+41,Paraná,Matelândia,4115606,PR
+41,Paraná,Matinhos,4115705,PR
+41,Paraná,Mato Rico,4115739,PR
+41,Paraná,Mauá da Serra,4115754,PR
+41,Paraná,Medianeira,4115804,PR
+41,Paraná,Mercedes,4115853,PR
+41,Paraná,Mirador,4115903,PR
+41,Paraná,Miraselva,4116000,PR
+41,Paraná,Missal,4116059,PR
+41,Paraná,Moreira Sales,4116109,PR
+41,Paraná,Morretes,4116208,PR
+41,Paraná,Munhoz de Melo,4116307,PR
+41,Paraná,Nossa Senhora das Graças,4116406,PR
+41,Paraná,Nova Aliança do Ivaí,4116505,PR
+41,Paraná,Nova América da Colina,4116604,PR
+41,Paraná,Nova Aurora,4116703,PR
+41,Paraná,Nova Cantu,4116802,PR
+41,Paraná,Nova Esperança,4116901,PR
+41,Paraná,Nova Esperança do Sudoeste,4116950,PR
+41,Paraná,Nova Fátima,4117008,PR
+41,Paraná,Nova Laranjeiras,4117057,PR
+41,Paraná,Nova Londrina,4117107,PR
+41,Paraná,Nova Olímpia,4117206,PR
+41,Paraná,Nova Prata do Iguaçu,4117255,PR
+41,Paraná,Nova Santa Bárbara,4117214,PR
+41,Paraná,Nova Santa Rosa,4117222,PR
+41,Paraná,Nova Tebas,4117271,PR
+41,Paraná,Novo Itacolomi,4117297,PR
+41,Paraná,Ortigueira,4117305,PR
+41,Paraná,Ourizona,4117404,PR
+41,Paraná,Ouro Verde do Oeste,4117453,PR
+41,Paraná,Paiçandu,4117503,PR
+41,Paraná,Palmas,4117602,PR
+41,Paraná,Palmeira,4117701,PR
+41,Paraná,Palmital,4117800,PR
+41,Paraná,Palotina,4117909,PR
+41,Paraná,Paraíso do Norte,4118006,PR
+41,Paraná,Paranacity,4118105,PR
+41,Paraná,Paranaguá,4118204,PR
+41,Paraná,Paranapoema,4118303,PR
+41,Paraná,Paranavaí,4118402,PR
+41,Paraná,Pato Bragado,4118451,PR
+41,Paraná,Pato Branco,4118501,PR
+41,Paraná,Paula Freitas,4118600,PR
+41,Paraná,Paulo Frontin,4118709,PR
+41,Paraná,Peabiru,4118808,PR
+41,Paraná,Perobal,4118857,PR
+41,Paraná,Pérola,4118907,PR
+41,Paraná,Pérola d'Oeste,4119004,PR
+41,Paraná,Piên,4119103,PR
+41,Paraná,Pinhais,4119152,PR
+41,Paraná,Pinhal de São Bento,4119251,PR
+41,Paraná,Pinhalão,4119202,PR
+41,Paraná,Pinhão,4119301,PR
+41,Paraná,Piraí do Sul,4119400,PR
+41,Paraná,Piraquara,4119509,PR
+41,Paraná,Pitanga,4119608,PR
+41,Paraná,Pitangueiras,4119657,PR
+41,Paraná,Planaltina do Paraná,4119707,PR
+41,Paraná,Planalto,4119806,PR
+41,Paraná,Ponta Grossa,4119905,PR
+41,Paraná,Pontal do Paraná,4119954,PR
+41,Paraná,Porecatu,4120002,PR
+41,Paraná,Porto Amazonas,4120101,PR
+41,Paraná,Porto Barreiro,4120150,PR
+41,Paraná,Porto Rico,4120200,PR
+41,Paraná,Porto Vitória,4120309,PR
+41,Paraná,Prado Ferreira,4120333,PR
+41,Paraná,Pranchita,4120358,PR
+41,Paraná,Presidente Castelo Branco,4120408,PR
+41,Paraná,Primeiro de Maio,4120507,PR
+41,Paraná,Prudentópolis,4120606,PR
+41,Paraná,Quarto Centenário,4120655,PR
+41,Paraná,Quatiguá,4120705,PR
+41,Paraná,Quatro Barras,4120804,PR
+41,Paraná,Quatro Pontes,4120853,PR
+41,Paraná,Quedas do Iguaçu,4120903,PR
+41,Paraná,Querência do Norte,4121000,PR
+41,Paraná,Quinta do Sol,4121109,PR
+41,Paraná,Quitandinha,4121208,PR
+41,Paraná,Ramilândia,4121257,PR
+41,Paraná,Rancho Alegre,4121307,PR
+41,Paraná,Rancho Alegre D'Oeste,4121356,PR
+41,Paraná,Realeza,4121406,PR
+41,Paraná,Rebouças,4121505,PR
+41,Paraná,Renascença,4121604,PR
+41,Paraná,Reserva,4121703,PR
+41,Paraná,Reserva do Iguaçu,4121752,PR
+41,Paraná,Ribeirão Claro,4121802,PR
+41,Paraná,Ribeirão do Pinhal,4121901,PR
+41,Paraná,Rio Azul,4122008,PR
+41,Paraná,Rio Bom,4122107,PR
+41,Paraná,Rio Bonito do Iguaçu,4122156,PR
+41,Paraná,Rio Branco do Ivaí,4122172,PR
+41,Paraná,Rio Branco do Sul,4122206,PR
+41,Paraná,Rio Negro,4122305,PR
+41,Paraná,Rolândia,4122404,PR
+41,Paraná,Roncador,4122503,PR
+41,Paraná,Rondon,4122602,PR
+41,Paraná,Rosário do Ivaí,4122651,PR
+41,Paraná,Sabáudia,4122701,PR
+41,Paraná,Salgado Filho,4122800,PR
+41,Paraná,Salto do Itararé,4122909,PR
+41,Paraná,Salto do Lontra,4123006,PR
+41,Paraná,Santa Amélia,4123105,PR
+41,Paraná,Santa Cecília do Pavão,4123204,PR
+41,Paraná,Santa Cruz de Monte Castelo,4123303,PR
+41,Paraná,Santa Fé,4123402,PR
+41,Paraná,Santa Helena,4123501,PR
+41,Paraná,Santa Inês,4123600,PR
+41,Paraná,Santa Isabel do Ivaí,4123709,PR
+41,Paraná,Santa Izabel do Oeste,4123808,PR
+41,Paraná,Santa Lúcia,4123824,PR
+41,Paraná,Santa Maria do Oeste,4123857,PR
+41,Paraná,Santa Mariana,4123907,PR
+41,Paraná,Santa Mônica,4123956,PR
+41,Paraná,Santa Tereza do Oeste,4124020,PR
+41,Paraná,Santa Terezinha de Itaipu,4124053,PR
+41,Paraná,Santana do Itararé,4124004,PR
+41,Paraná,Santo Antônio da Platina,4124103,PR
+41,Paraná,Santo Antônio do Caiuá,4124202,PR
+41,Paraná,Santo Antônio do Paraíso,4124301,PR
+41,Paraná,Santo Antônio do Sudoeste,4124400,PR
+41,Paraná,Santo Inácio,4124509,PR
+41,Paraná,São Carlos do Ivaí,4124608,PR
+41,Paraná,São Jerônimo da Serra,4124707,PR
+41,Paraná,São João,4124806,PR
+41,Paraná,São João do Caiuá,4124905,PR
+41,Paraná,São João do Ivaí,4125001,PR
+41,Paraná,São João do Triunfo,4125100,PR
+41,Paraná,São Jorge do Ivaí,4125308,PR
+41,Paraná,São Jorge do Patrocínio,4125357,PR
+41,Paraná,São Jorge d'Oeste,4125209,PR
+41,Paraná,São José da Boa Vista,4125407,PR
+41,Paraná,São José das Palmeiras,4125456,PR
+41,Paraná,São José dos Pinhais,4125506,PR
+41,Paraná,São Manoel do Paraná,4125555,PR
+41,Paraná,São Mateus do Sul,4125605,PR
+41,Paraná,São Miguel do Iguaçu,4125704,PR
+41,Paraná,São Pedro do Iguaçu,4125753,PR
+41,Paraná,São Pedro do Ivaí,4125803,PR
+41,Paraná,São Pedro do Paraná,4125902,PR
+41,Paraná,São Sebastião da Amoreira,4126009,PR
+41,Paraná,São Tomé,4126108,PR
+41,Paraná,Sapopema,4126207,PR
+41,Paraná,Sarandi,4126256,PR
+41,Paraná,Saudade do Iguaçu,4126272,PR
+41,Paraná,Sengés,4126306,PR
+41,Paraná,Serranópolis do Iguaçu,4126355,PR
+41,Paraná,Sertaneja,4126405,PR
+41,Paraná,Sertanópolis,4126504,PR
+41,Paraná,Siqueira Campos,4126603,PR
+41,Paraná,Sulina,4126652,PR
+41,Paraná,Tamarana,4126678,PR
+41,Paraná,Tamboara,4126702,PR
+41,Paraná,Tapejara,4126801,PR
+41,Paraná,Tapira,4126900,PR
+41,Paraná,Teixeira Soares,4127007,PR
+41,Paraná,Telêmaco Borba,4127106,PR
+41,Paraná,Terra Boa,4127205,PR
+41,Paraná,Terra Rica,4127304,PR
+41,Paraná,Terra Roxa,4127403,PR
+41,Paraná,Tibagi,4127502,PR
+41,Paraná,Tijucas do Sul,4127601,PR
+41,Paraná,Toledo,4127700,PR
+41,Paraná,Tomazina,4127809,PR
+41,Paraná,Três Barras do Paraná,4127858,PR
+41,Paraná,Tunas do Paraná,4127882,PR
+41,Paraná,Tuneiras do Oeste,4127908,PR
+41,Paraná,Tupãssi,4127957,PR
+41,Paraná,Turvo,4127965,PR
+41,Paraná,Ubiratã,4128005,PR
+41,Paraná,Umuarama,4128104,PR
+41,Paraná,União da Vitória,4128203,PR
+41,Paraná,Uniflor,4128302,PR
+41,Paraná,Uraí,4128401,PR
+41,Paraná,Ventania,4128534,PR
+41,Paraná,Vera Cruz do Oeste,4128559,PR
+41,Paraná,Verê,4128609,PR
+41,Paraná,Virmond,4128658,PR
+41,Paraná,Vitorino,4128708,PR
+41,Paraná,Wenceslau Braz,4128500,PR
+41,Paraná,Xambrê,4128807,PR
 42,Santa Catarina,Abdon Batista,4200051,SC
 42,Santa Catarina,Abelardo Luz,4200101,SC
 42,Santa Catarina,Agrolândia,4200200,SC
@@ -5181,147 +5181,147 @@ UF,Nome_UF,Município,Codigo_Municipio,Sigla_UF
 50,Mato Grosso do Sul,Terenos,5008008,MS
 50,Mato Grosso do Sul,Três Lagoas,5008305,MS
 50,Mato Grosso do Sul,Vicentina,5008404,MS
-51,Mato Grosso,Acorizal,5100102,MG
-51,Mato Grosso,Água Boa,5100201,MG
-51,Mato Grosso,Alta Floresta,5100250,MG
-51,Mato Grosso,Alto Araguaia,5100300,MG
-51,Mato Grosso,Alto Boa Vista,5100359,MG
-51,Mato Grosso,Alto Garças,5100409,MG
-51,Mato Grosso,Alto Paraguai,5100508,MG
-51,Mato Grosso,Alto Taquari,5100607,MG
-51,Mato Grosso,Apiacás,5100805,MG
-51,Mato Grosso,Araguaiana,5101001,MG
-51,Mato Grosso,Araguainha,5101209,MG
-51,Mato Grosso,Araputanga,5101258,MG
-51,Mato Grosso,Arenápolis,5101308,MG
-51,Mato Grosso,Aripuanã,5101407,MG
-51,Mato Grosso,Barão de Melgaço,5101605,MG
-51,Mato Grosso,Barra do Bugres,5101704,MG
-51,Mato Grosso,Barra do Garças,5101803,MG
-51,Mato Grosso,Bom Jesus do Araguaia,5101852,MG
-51,Mato Grosso,Brasnorte,5101902,MG
-51,Mato Grosso,Cáceres,5102504,MG
-51,Mato Grosso,Campinápolis,5102603,MG
-51,Mato Grosso,Campo Novo do Parecis,5102637,MG
-51,Mato Grosso,Campo Verde,5102678,MG
-51,Mato Grosso,Campos de Júlio,5102686,MG
-51,Mato Grosso,Canabrava do Norte,5102694,MG
-51,Mato Grosso,Canarana,5102702,MG
-51,Mato Grosso,Carlinda,5102793,MG
-51,Mato Grosso,Castanheira,5102850,MG
-51,Mato Grosso,Chapada dos Guimarães,5103007,MG
-51,Mato Grosso,Cláudia,5103056,MG
-51,Mato Grosso,Cocalinho,5103106,MG
-51,Mato Grosso,Colíder,5103205,MG
-51,Mato Grosso,Colniza,5103254,MG
-51,Mato Grosso,Comodoro,5103304,MG
-51,Mato Grosso,Confresa,5103353,MG
-51,Mato Grosso,Conquista D'Oeste,5103361,MG
-51,Mato Grosso,Cotriguaçu,5103379,MG
-51,Mato Grosso,Cuiabá,5103403,MG
-51,Mato Grosso,Curvelândia,5103437,MG
-51,Mato Grosso,Denise,5103452,MG
-51,Mato Grosso,Diamantino,5103502,MG
-51,Mato Grosso,Dom Aquino,5103601,MG
-51,Mato Grosso,Feliz Natal,5103700,MG
-51,Mato Grosso,Figueirópolis D'Oeste,5103809,MG
-51,Mato Grosso,Gaúcha do Norte,5103858,MG
-51,Mato Grosso,General Carneiro,5103908,MG
-51,Mato Grosso,Glória D'Oeste,5103957,MG
-51,Mato Grosso,Guarantã do Norte,5104104,MG
-51,Mato Grosso,Guiratinga,5104203,MG
-51,Mato Grosso,Indiavaí,5104500,MG
-51,Mato Grosso,Ipiranga do Norte,5104526,MG
-51,Mato Grosso,Itanhangá,5104542,MG
-51,Mato Grosso,Itaúba,5104559,MG
-51,Mato Grosso,Itiquira,5104609,MG
-51,Mato Grosso,Jaciara,5104807,MG
-51,Mato Grosso,Jangada,5104906,MG
-51,Mato Grosso,Jauru,5105002,MG
-51,Mato Grosso,Juara,5105101,MG
-51,Mato Grosso,Juína,5105150,MG
-51,Mato Grosso,Juruena,5105176,MG
-51,Mato Grosso,Juscimeira,5105200,MG
-51,Mato Grosso,Lambari D'Oeste,5105234,MG
-51,Mato Grosso,Lucas do Rio Verde,5105259,MG
-51,Mato Grosso,Luciara,5105309,MG
-51,Mato Grosso,Marcelândia,5105580,MG
-51,Mato Grosso,Matupá,5105606,MG
-51,Mato Grosso,Mirassol d'Oeste,5105622,MG
-51,Mato Grosso,Nobres,5105903,MG
-51,Mato Grosso,Nortelândia,5106000,MG
-51,Mato Grosso,Nossa Senhora do Livramento,5106109,MG
-51,Mato Grosso,Nova Bandeirantes,5106158,MG
-51,Mato Grosso,Nova Brasilândia,5106208,MG
-51,Mato Grosso,Nova Canaã do Norte,5106216,MG
-51,Mato Grosso,Nova Guarita,5108808,MG
-51,Mato Grosso,Nova Lacerda,5106182,MG
-51,Mato Grosso,Nova Marilândia,5108857,MG
-51,Mato Grosso,Nova Maringá,5108907,MG
-51,Mato Grosso,Nova Monte Verde,5108956,MG
-51,Mato Grosso,Nova Mutum,5106224,MG
-51,Mato Grosso,Nova Nazaré,5106174,MG
-51,Mato Grosso,Nova Olímpia,5106232,MG
-51,Mato Grosso,Nova Santa Helena,5106190,MG
-51,Mato Grosso,Nova Ubiratã,5106240,MG
-51,Mato Grosso,Nova Xavantina,5106257,MG
-51,Mato Grosso,Novo Horizonte do Norte,5106273,MG
-51,Mato Grosso,Novo Mundo,5106265,MG
-51,Mato Grosso,Novo Santo Antônio,5106315,MG
-51,Mato Grosso,Novo São Joaquim,5106281,MG
-51,Mato Grosso,Paranaíta,5106299,MG
-51,Mato Grosso,Paranatinga,5106307,MG
-51,Mato Grosso,Pedra Preta,5106372,MG
-51,Mato Grosso,Peixoto de Azevedo,5106422,MG
-51,Mato Grosso,Planalto da Serra,5106455,MG
-51,Mato Grosso,Poconé,5106505,MG
-51,Mato Grosso,Pontal do Araguaia,5106653,MG
-51,Mato Grosso,Ponte Branca,5106703,MG
-51,Mato Grosso,Pontes e Lacerda,5106752,MG
-51,Mato Grosso,Porto Alegre do Norte,5106778,MG
-51,Mato Grosso,Porto dos Gaúchos,5106802,MG
-51,Mato Grosso,Porto Esperidião,5106828,MG
-51,Mato Grosso,Porto Estrela,5106851,MG
-51,Mato Grosso,Poxoréu,5107008,MG
-51,Mato Grosso,Primavera do Leste,5107040,MG
-51,Mato Grosso,Querência,5107065,MG
-51,Mato Grosso,Reserva do Cabaçal,5107156,MG
-51,Mato Grosso,Ribeirão Cascalheira,5107180,MG
-51,Mato Grosso,Ribeirãozinho,5107198,MG
-51,Mato Grosso,Rio Branco,5107206,MG
-51,Mato Grosso,Rondolândia,5107578,MG
-51,Mato Grosso,Rondonópolis,5107602,MG
-51,Mato Grosso,Rosário Oeste,5107701,MG
-51,Mato Grosso,Salto do Céu,5107750,MG
-51,Mato Grosso,Santa Carmem,5107248,MG
-51,Mato Grosso,Santa Cruz do Xingu,5107743,MG
-51,Mato Grosso,Santa Rita do Trivelato,5107768,MG
-51,Mato Grosso,Santa Terezinha,5107776,MG
-51,Mato Grosso,Santo Afonso,5107263,MG
-51,Mato Grosso,Santo Antônio de Leverger,5107800,MG
-51,Mato Grosso,Santo Antônio do Leste,5107792,MG
-51,Mato Grosso,São Félix do Araguaia,5107859,MG
-51,Mato Grosso,São José do Povo,5107297,MG
-51,Mato Grosso,São José do Rio Claro,5107305,MG
-51,Mato Grosso,São José do Xingu,5107354,MG
-51,Mato Grosso,São José dos Quatro Marcos,5107107,MG
-51,Mato Grosso,São Pedro da Cipa,5107404,MG
-51,Mato Grosso,Sapezal,5107875,MG
-51,Mato Grosso,Serra Nova Dourada,5107883,MG
-51,Mato Grosso,Sinop,5107909,MG
-51,Mato Grosso,Sorriso,5107925,MG
-51,Mato Grosso,Tabaporã,5107941,MG
-51,Mato Grosso,Tangará da Serra,5107958,MG
-51,Mato Grosso,Tapurah,5108006,MG
-51,Mato Grosso,Terra Nova do Norte,5108055,MG
-51,Mato Grosso,Tesouro,5108105,MG
-51,Mato Grosso,Torixoréu,5108204,MG
-51,Mato Grosso,União do Sul,5108303,MG
-51,Mato Grosso,Vale de São Domingos,5108352,MG
-51,Mato Grosso,Várzea Grande,5108402,MG
-51,Mato Grosso,Vera,5108501,MG
-51,Mato Grosso,Vila Bela da Santíssima Trindade,5105507,MG
-51,Mato Grosso,Vila Rica,5108600,MG
+51,Mato Grosso,Acorizal,5100102,MT
+51,Mato Grosso,Água Boa,5100201,MT
+51,Mato Grosso,Alta Floresta,5100250,MT
+51,Mato Grosso,Alto Araguaia,5100300,MT
+51,Mato Grosso,Alto Boa Vista,5100359,MT
+51,Mato Grosso,Alto Garças,5100409,MT
+51,Mato Grosso,Alto Paraguai,5100508,MT
+51,Mato Grosso,Alto Taquari,5100607,MT
+51,Mato Grosso,Apiacás,5100805,MT
+51,Mato Grosso,Araguaiana,5101001,MT
+51,Mato Grosso,Araguainha,5101209,MT
+51,Mato Grosso,Araputanga,5101258,MT
+51,Mato Grosso,Arenápolis,5101308,MT
+51,Mato Grosso,Aripuanã,5101407,MT
+51,Mato Grosso,Barão de Melgaço,5101605,MT
+51,Mato Grosso,Barra do Bugres,5101704,MT
+51,Mato Grosso,Barra do Garças,5101803,MT
+51,Mato Grosso,Bom Jesus do Araguaia,5101852,MT
+51,Mato Grosso,Brasnorte,5101902,MT
+51,Mato Grosso,Cáceres,5102504,MT
+51,Mato Grosso,Campinápolis,5102603,MT
+51,Mato Grosso,Campo Novo do Parecis,5102637,MT
+51,Mato Grosso,Campo Verde,5102678,MT
+51,Mato Grosso,Campos de Júlio,5102686,MT
+51,Mato Grosso,Canabrava do Norte,5102694,MT
+51,Mato Grosso,Canarana,5102702,MT
+51,Mato Grosso,Carlinda,5102793,MT
+51,Mato Grosso,Castanheira,5102850,MT
+51,Mato Grosso,Chapada dos Guimarães,5103007,MT
+51,Mato Grosso,Cláudia,5103056,MT
+51,Mato Grosso,Cocalinho,5103106,MT
+51,Mato Grosso,Colíder,5103205,MT
+51,Mato Grosso,Colniza,5103254,MT
+51,Mato Grosso,Comodoro,5103304,MT
+51,Mato Grosso,Confresa,5103353,MT
+51,Mato Grosso,Conquista D'Oeste,5103361,MT
+51,Mato Grosso,Cotriguaçu,5103379,MT
+51,Mato Grosso,Cuiabá,5103403,MT
+51,Mato Grosso,Curvelândia,5103437,MT
+51,Mato Grosso,Denise,5103452,MT
+51,Mato Grosso,Diamantino,5103502,MT
+51,Mato Grosso,Dom Aquino,5103601,MT
+51,Mato Grosso,Feliz Natal,5103700,MT
+51,Mato Grosso,Figueirópolis D'Oeste,5103809,MT
+51,Mato Grosso,Gaúcha do Norte,5103858,MT
+51,Mato Grosso,General Carneiro,5103908,MT
+51,Mato Grosso,Glória D'Oeste,5103957,MT
+51,Mato Grosso,Guarantã do Norte,5104104,MT
+51,Mato Grosso,Guiratinga,5104203,MT
+51,Mato Grosso,Indiavaí,5104500,MT
+51,Mato Grosso,Ipiranga do Norte,5104526,MT
+51,Mato Grosso,Itanhangá,5104542,MT
+51,Mato Grosso,Itaúba,5104559,MT
+51,Mato Grosso,Itiquira,5104609,MT
+51,Mato Grosso,Jaciara,5104807,MT
+51,Mato Grosso,Jangada,5104906,MT
+51,Mato Grosso,Jauru,5105002,MT
+51,Mato Grosso,Juara,5105101,MT
+51,Mato Grosso,Juína,5105150,MT
+51,Mato Grosso,Juruena,5105176,MT
+51,Mato Grosso,Juscimeira,5105200,MT
+51,Mato Grosso,Lambari D'Oeste,5105234,MT
+51,Mato Grosso,Lucas do Rio Verde,5105259,MT
+51,Mato Grosso,Luciara,5105309,MT
+51,Mato Grosso,Marcelândia,5105580,MT
+51,Mato Grosso,Matupá,5105606,MT
+51,Mato Grosso,Mirassol d'Oeste,5105622,MT
+51,Mato Grosso,Nobres,5105903,MT
+51,Mato Grosso,Nortelândia,5106000,MT
+51,Mato Grosso,Nossa Senhora do Livramento,5106109,MT
+51,Mato Grosso,Nova Bandeirantes,5106158,MT
+51,Mato Grosso,Nova Brasilândia,5106208,MT
+51,Mato Grosso,Nova Canaã do Norte,5106216,MT
+51,Mato Grosso,Nova Guarita,5108808,MT
+51,Mato Grosso,Nova Lacerda,5106182,MT
+51,Mato Grosso,Nova Marilândia,5108857,MT
+51,Mato Grosso,Nova Maringá,5108907,MT
+51,Mato Grosso,Nova Monte Verde,5108956,MT
+51,Mato Grosso,Nova Mutum,5106224,MT
+51,Mato Grosso,Nova Nazaré,5106174,MT
+51,Mato Grosso,Nova Olímpia,5106232,MT
+51,Mato Grosso,Nova Santa Helena,5106190,MT
+51,Mato Grosso,Nova Ubiratã,5106240,MT
+51,Mato Grosso,Nova Xavantina,5106257,MT
+51,Mato Grosso,Novo Horizonte do Norte,5106273,MT
+51,Mato Grosso,Novo Mundo,5106265,MT
+51,Mato Grosso,Novo Santo Antônio,5106315,MT
+51,Mato Grosso,Novo São Joaquim,5106281,MT
+51,Mato Grosso,Paranaíta,5106299,MT
+51,Mato Grosso,Paranatinga,5106307,MT
+51,Mato Grosso,Pedra Preta,5106372,MT
+51,Mato Grosso,Peixoto de Azevedo,5106422,MT
+51,Mato Grosso,Planalto da Serra,5106455,MT
+51,Mato Grosso,Poconé,5106505,MT
+51,Mato Grosso,Pontal do Araguaia,5106653,MT
+51,Mato Grosso,Ponte Branca,5106703,MT
+51,Mato Grosso,Pontes e Lacerda,5106752,MT
+51,Mato Grosso,Porto Alegre do Norte,5106778,MT
+51,Mato Grosso,Porto dos Gaúchos,5106802,MT
+51,Mato Grosso,Porto Esperidião,5106828,MT
+51,Mato Grosso,Porto Estrela,5106851,MT
+51,Mato Grosso,Poxoréu,5107008,MT
+51,Mato Grosso,Primavera do Leste,5107040,MT
+51,Mato Grosso,Querência,5107065,MT
+51,Mato Grosso,Reserva do Cabaçal,5107156,MT
+51,Mato Grosso,Ribeirão Cascalheira,5107180,MT
+51,Mato Grosso,Ribeirãozinho,5107198,MT
+51,Mato Grosso,Rio Branco,5107206,MT
+51,Mato Grosso,Rondolândia,5107578,MT
+51,Mato Grosso,Rondonópolis,5107602,MT
+51,Mato Grosso,Rosário Oeste,5107701,MT
+51,Mato Grosso,Salto do Céu,5107750,MT
+51,Mato Grosso,Santa Carmem,5107248,MT
+51,Mato Grosso,Santa Cruz do Xingu,5107743,MT
+51,Mato Grosso,Santa Rita do Trivelato,5107768,MT
+51,Mato Grosso,Santa Terezinha,5107776,MT
+51,Mato Grosso,Santo Afonso,5107263,MT
+51,Mato Grosso,Santo Antônio de Leverger,5107800,MT
+51,Mato Grosso,Santo Antônio do Leste,5107792,MT
+51,Mato Grosso,São Félix do Araguaia,5107859,MT
+51,Mato Grosso,São José do Povo,5107297,MT
+51,Mato Grosso,São José do Rio Claro,5107305,MT
+51,Mato Grosso,São José do Xingu,5107354,MT
+51,Mato Grosso,São José dos Quatro Marcos,5107107,MT
+51,Mato Grosso,São Pedro da Cipa,5107404,MT
+51,Mato Grosso,Sapezal,5107875,MT
+51,Mato Grosso,Serra Nova Dourada,5107883,MT
+51,Mato Grosso,Sinop,5107909,MT
+51,Mato Grosso,Sorriso,5107925,MT
+51,Mato Grosso,Tabaporã,5107941,MT
+51,Mato Grosso,Tangará da Serra,5107958,MT
+51,Mato Grosso,Tapurah,5108006,MT
+51,Mato Grosso,Terra Nova do Norte,5108055,MT
+51,Mato Grosso,Tesouro,5108105,MT
+51,Mato Grosso,Torixoréu,5108204,MT
+51,Mato Grosso,União do Sul,5108303,MT
+51,Mato Grosso,Vale de São Domingos,5108352,MT
+51,Mato Grosso,Várzea Grande,5108402,MT
+51,Mato Grosso,Vera,5108501,MT
+51,Mato Grosso,Vila Bela da Santíssima Trindade,5105507,MT
+51,Mato Grosso,Vila Rica,5108600,MT
 52,Goiás,Abadia de Goiás,5200050,GO
 52,Goiás,Abadiânia,5200100,GO
 52,Goiás,Acreúna,5200134,GO
