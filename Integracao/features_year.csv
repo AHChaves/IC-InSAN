@@ -1,0 +1,151 @@
+Atributo,2017,2018,2019,2020,2021,2022,2023,2024
+Codigo_Municipio,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+Município,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+UF,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+Sigla_UF,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+Quantidade de estabelecimentos agropecuários – Agricultura familiar,Sim,Não,Não,Não,Não,Não,Não,Não
+Quantidade de estabelecimentos agropecuários – Não família,Sim,Não,Não,Não,Não,Não,Não,Não
+Quantidade total de estabelecimentos agropecuários,Sim,Não,Não,Não,Não,Não,Não,Não
+PIB do Municipio,Sim,Sim,Sim,Sim,Sim,Sim,Não,Não
+"Produto Interno Bruto per capita, a preços correntes(R$ 1,00)",Sim,Sim,Sim,Sim,Sim,Sim,Não,Não
+Atividade com maior valor adicionado bruto,Sim,Sim,Sim,Sim,Sim,Sim,Não,Não
+qtd_familias_total_bolsa_familia,Sim,Sim,Sim,Sim,Sim,Não,Sim,Sim
+media_qtd_familias_bolsa_familia,Sim,Sim,Sim,Sim,Sim,Não,Sim,Sim
+valor_total_repassado_bolsa_familia,Sim,Sim,Sim,Sim,Sim,Não,Sim,Sim
+media_valor_repassado_bolsa_familia,Sim,Sim,Sim,Sim,Sim,Não,Sim,Sim
+num_beneficiados_bpc,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+media_beneficiados_bpc,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+num_pcd_beneficiados_bpc,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+media_pcd_beneficiados_bpc,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+num_idoso_beneficiados_bpc,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+media_idoso_beneficiados_bpc,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+valor_total_repassado_bpc,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+media_valor_repassado_bpc,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+valor_pcd_repassado_bpc,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+media_valor_pcd_repassado_bpc,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+valor_idoso_repassado_bpc,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+media_valor_idoso_repassado_pbc,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+Produção de Abacate(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Abacaxi*(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Açaí(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Alfafa fenada(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Algodão arbóreo (em caroço)(toneladas),Sim,Sim,Não,Sim,Sim,Sim,Não,Não
+Produção de Algodão herbáceo (em caroço)(toneladas),Sim,Sim,Não,Sim,Sim,Sim,Não,Não
+Produção de Alho(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Amendoim (em casca)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Arroz (em casca)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Aveia (em grão)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Azeitona(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Banana (cacho)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Batata-doce(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Batata-inglesa(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Borracha (látex coagulado)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Borracha (látex líquido)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Cacau (em amêndoa)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Café (em grão) Total(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Café (em grão) Arábica(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Café (em grão) Canephora(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Caju(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Cana-de-açúcar(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Cana para forragem(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Caqui(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Castanha de caju(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Cebola(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Centeio (em grão)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Cevada (em grão)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Chá-da-índia (folha verde)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Coco-da-baía*(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Dendê (cacho de coco)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Erva-mate (folha verde)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Ervilha (em grão)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Fava (em grão)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Feijão (em grão)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Figo(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Fumo (em folha)(toneladas),Sim,Sim,Não,Sim,Sim,Sim,Não,Não
+Produção de Girassol (em grão)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Goiaba(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Guaraná (semente)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Juta (fibra)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Laranja(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Limão(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Linho (semente)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Maçã(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Malva (fibra)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Mamão(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Mamona (baga)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Mandioca(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Manga(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Maracujá(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Marmelo(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Melancia(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Melão(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Milho (em grão)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Noz (fruto seco)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Palmito(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Pera(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Pêssego(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Pimenta-do-reino(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Rami (fibra)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Sisal ou agave (fibra)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Soja (em grão)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Sorgo (em grão)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Tangerina(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Tomate(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Trigo (em grão)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Triticale (em grão)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Tungue (fruto seco)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Urucum (semente)(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Produção de Uva(toneladas),Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não
+Número de unidades locais,Não,Não,Não,Sim,Sim,Sim,Não,Não
+Pessoal ocupado Total,Não,Não,Não,Sim,Sim,Sim,Não,Não
+Pessoal ocupado Assalariado,Não,Não,Não,Sim,Sim,Sim,Não,Não
+Pessoal assalariado médio,Não,Não,Não,Sim,Sim,Sim,Não,Não
+Salário médio  mensal  (salários mínimos)  (1) (2),Não,Não,Não,Sim,Sim,Sim,Não,Não
+Salário médio mensal(R$),Não,Não,Não,Sim,Sim,Sim,Não,Não
+Número de empresas atuantes,Não,Não,Não,Sim,Sim,Sim,Não,Não
+2020_Estoque_media,Não,Não,Não,Sim,Não,Não,Não,Não
+2020_Estoque_MAX,Não,Não,Não,Sim,Não,Não,Não,Não
+2020_Estoque_MIN,Não,Não,Não,Sim,Não,Não,Não,Não
+2021_Estoque_media,Não,Não,Não,Não,Sim,Não,Não,Não
+2021_Estoque_MAX,Não,Não,Não,Não,Sim,Não,Não,Não
+2021_Estoque_MIN,Não,Não,Não,Não,Sim,Não,Não,Não
+2022_Estoque_media,Não,Não,Não,Não,Não,Sim,Não,Não
+2022_Estoque_MAX,Não,Não,Não,Não,Não,Sim,Não,Não
+2022_Estoque_MIN,Não,Não,Não,Não,Não,Sim,Não,Não
+2023_Estoque_media,Não,Não,Não,Não,Não,Não,Sim,Não
+2023_Estoque_MAX,Não,Não,Não,Não,Não,Não,Sim,Não
+2023_Estoque_MIN,Não,Não,Não,Não,Não,Não,Sim,Não
+2024_Estoque_media,Não,Não,Não,Não,Não,Não,Não,Sim
+2024_Estoque_MAX,Não,Não,Não,Não,Não,Não,Não,Sim
+2024_Estoque_MIN,Não,Não,Não,Não,Não,Não,Não,Sim
+Total de domicilios no município,Não,Não,Não,Não,Não,Sim,Não,Não
+Quantidade de domicilios urbanos,Não,Não,Não,Não,Não,Sim,Não,Não
+Quantidade de domicilios rurais,Não,Não,Não,Não,Não,Sim,Não,Não
+Porcentagem de pessoas alfabetizadas,Não,Não,Não,Não,Não,Sim,Não,Não
+Número de pessoas (Com idade >= 15) alfabetizadas,Não,Não,Não,Não,Não,Sim,Não,Não
+Número de pessoas (Com idade >= 15) não alfabetizadas,Não,Não,Não,Não,Não,Sim,Não,Não
+Total de domicilios,Não,Não,Não,Não,Não,Sim,Não,Não
+Total de domicilios do tipo casa,Não,Não,Não,Não,Não,Sim,Não,Não
+Total de domicilios do tipo casa de vila ou em condomínio,Não,Não,Não,Não,Não,Sim,Não,Não
+Total de domicilios do tipo apartamento,Não,Não,Não,Não,Não,Sim,Não,Não
+Total de domicilios do tipo habitação indígena sem paredes ou maloca,Não,Não,Não,Não,Não,Sim,Não,Não
+Total de lixo coletado,Não,Não,Não,Não,Não,Sim,Não,Não
+Total de lixo coletado por metodos padrões,Não,Não,Não,Não,Não,Sim,Não,Não
+"Total domicilios com acesso a água, até dentro da casa, apartamento ou habitação",Não,Não,Não,Não,Não,Sim,Não,Não
+"Numero de domicilios com acesso a água, até dentro da casa, apartamento ou habitação, pela rede geral de distribuição",Não,Não,Não,Não,Não,Sim,Não,Não
+"Total domicilios com acesso a água, mas apenas no terreno",Não,Não,Não,Não,Não,Sim,Não,Não
+"Numero de domicilios com acesso a água, mas apenas no terreno, pela rede geral de distribuição",Não,Não,Não,Não,Não,Sim,Não,Não
+Sem água canalizada,Não,Não,Não,Não,Não,Sim,Não,Não
+Total de domicilios com acesso a rede de esgoto,Não,Não,Não,Não,Não,Sim,Não,Não
+"Número de domicilios com esgoto coletado pela rede geral, rede pluvial ou fossa ligada à rede",Não,Não,Não,Não,Não,Sim,Não,Não
+Numero Clinicas de Ambulatorio Basicas,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+Numero Clinicas de Ambulatorio Especializadas,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+Numero Leitos de Internação,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+Numero Leitos de Ambulatorio Feminino,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+Numero Leitos de Ambulatorio Masculino,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+Numero Leitos de Ambulatorio Indiferente,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+Numero Leitos de Ambulatorio Pediatro,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+Numero Leitos de Urgencia Feminino,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+Numero Leitos de Urgencia Masculino,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+Numero Leitos de Urgencia Indiferente,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
+Numero Leitos de Urgencia Pediatro,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim
