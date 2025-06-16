@@ -1,0 +1,324 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}    
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{xcolor}
+\sloppy
+
+\title{InSANdB: Bases de Dados Integrada para Estudos da Insegurança Alimentar e Nutricional por Município Brasileiro}
+
+\author{
+Arthur H. Ch. Oliveira\inst{1}, Sara Alves Martins\inst{1}, Daniel R. Franca\inst{1}\\
+Lucas R. P. do Nascimento\inst{1}, Heitor R. de Oliveira\inst{1}\\
+Marco P. Gomes\inst{1}, Luis E. Zárate\inst{1}
+}
+
+\address{
+\inst{1}Ciência de Dados e I.A., PUC Minas, Belo Horizonte, MG, Brasil\\
+\inst{1}Instituto de Ciências Exatas e Informática, PUC Minas, Belo Horizonte, MG, Brasil
+}
+
+\begin{document}
+
+\maketitle
+
+
+\begin{abstract}
+Food and nutrition insecurity (FNI) is a structural, multifaceted problem influenced by economic, sociocultural, and political issues. Understanding the conditions contributing to this insecurity can increase the effectiveness of public policies at the municipal level in Brazil. This work aims to integrate nine public databases that help characterize FNI. As a main part of the adopted methodology, we propose the conceptual modeling this domain by identifying the factors and their multiple dimensions and, based on this, building a unified database. As a result, the database can be useful for the development of future research in data science.
+\end{abstract}
+     
+\begin{resumo} 
+  A insegurança alimentar e nutricional (InSAN) é um problema estrutural, multifacetado e influenciado por problemas econômicos, socioculturais e políticos. Conhecer as condições que contribuem com essa insegurança pode aumentar a eficácia de políticas públicas em nível municipal no Brasil.  O objetivo deste trabalho é integrar nove bases de dados públicas que ajudem a caracterizar a InSAN. Como parte principal da metodologia adotada, é proposto a modelagem conceitual desse domínio identificando os fatores e suas múltiplas dimensões, e com base nisso, construir uma base de dados unificada. Como resultado, a base de dados pode ser útil para o desenvolvimento de futuras pesquisas em ciência de dados.  
+\end{resumo}
+
+\section{Introdução}
+
+Segundo a Organização das Nações Unidas para a Alimentação e a Agricultura (FAO), a segurança alimentar e nutricional (SAN) é um direito fundamental que assegura a todas as pessoas o acesso físico, econômico e social a alimentos em quantidade e qualidade adequadas para atender às suas necessidades biológicas, suficiente para levar uma vida ativa e saudável. A SAN está diretamente relacionado à promoção da saúde, ao desenvolvimento socioeconômico e à redução das desigualdades sociais \cite{FAO:96}.
+
+A existência da segurança alimentar e nutricional pressupõe também o seu contraponto, a insegurança alimentar e nutricional (InSAN), que se define pela dificuldade ou impossibilidade de acesso regular e permanente a alimentos de qualidade. A InSAN pode se manifestar em diferentes formas, desde a preocupação com a disponibilidade futura de alimentos até a fome propriamente dita. Essa condição está associada a fatores socioeconômicos, políticas públicas ineficientes e vulnerabilidades estruturais que afetam principalmente grupos de baixa renda \cite{Segall:07}, \cite{Hoffmann:13}.
+
+Contudo, a partir de um estudo aprofundado sobre a InSAN, percebe-se que se trata de um tema multifacetado, podendo ser analisado através da ótica de diversas áreas do conhecimento, o que o torna um assunto de grande complexidade. Entre essas perspectivas, podem-se citar a visão da nutrição e da saúde pública, que analisam os impactos da InSAN na saúde da população. A visão das ciências sociais e econômicas, que investigam a influência das desigualdades sociais e econômicas, a visão da agronomia e da sustentabilidade, que abordam questões como produção, distribuição e desperdício de alimentos, a visão da psicologia e da educação, que buscam entender os impactos da falta de uma nutrição adequada no desenvolvimento cognitivo e no aprendizado, entre outras diversas dimensões. 
+
+Apesar da complexidade e da relevância do tema, há poucas pesquisas que utilizam abordagens da ciência de dados para compreender e caracterizar a InSAN. A integração e a análise de dados sobre segurança alimentar ainda são desafiadoras devido à segmentação das informações em diferentes bases de dados, sendo muito delas públicas. A falta de um repositório unificado dificulta a análise e a formulação de diagnósticos precisos, e a elaboração de políticas públicas mais eficazes para o enfrentamento da InSAN.
+
+Entre as pesquisas brasileiras que abordam a InSAN, pode-se citar duas pesquisas realizadas pelo IBGE: A PNAD (Pesquisa Nacional por Amostra de Domicílios), que levanta informações sobre as condições socioeconômicas da população, abrangendo módulos específicos sobre segurança alimentar, e a POF (Pesquisa de Orçamentos Familiares), que analisa seus hábitos de consumo, orçamento e condições de vida, investigando também o padrão de gasto com alimentos, a sua disponibilidade e composição. Essas pesquisas foram realizadas em nível domiciliar, ou seja, os dados utilizados se referem a todos os moradores de um mesmo domicílio.
+
+ A proposta deste trabalho é singular na medida que busca integrar, baseado no entendimento conceitual do fenômeno InSAN, fontes de dados disponíveis, em nível municipal, possibilitando uma análise mais abrangente do fenômeno para diferentes municípios do Brasil. Ao considerar informações agregadas por município, pode-se identificar padrões regionais a respeito do tema abordado e suas possíveis correlações nos seus diversos fatores, contribuindo para um entendimento mais amplo do fenômeno. 
+
+Diante desse contexto, este trabalho propõe a construção uma banco de dados integrado a partir de 9 (nove) fontes de dados públicas que agregam informações relevantes para a caracterização da insegurança alimentar e nutricional. O objetivo é proporcionar para a comunidade científica um banco de dados (InSANdB) consolidado e que permita a aplicação de técnicas da ciência de dados para a análise e a descoberta de \textit{``insights"} sobre esse contexto. Como mencionado, o estudo deve contribuir para um entendimento mais aprofundado da problemática, subsidiando futuras iniciativas de combate à InSAN.
+
+Como metodologia adotada, o estudo inicia a partir do entendimento do domínio de problema (a InSAN) e a esquematização conceitual desse domínio por meio do método CAPTO (\cite{bresci}). O método busca identificar dimensões (diversas perspectivas do problema), e aspectos (fatores que podem influenciar o InSAN em nível municipal). O esquema conceitual é um guia para a identificação de fontes de dados relevantes para o estudo. Após este processo, são descritos os procedimentos de integração empregados para construir o repositório de dados alvo.
+
+Este trabalho está organizado em três seções. Na segunda seção, apresentamos a metodologia adotada, com a descrição das fontes de dados consideradas, o entendimento do problema, e o processo de integração das fontes de dados. Na terceira seção, o banco de dados integrado é descrito. Finalmente, na seção conclusões perspectivas e futuros trabalhos para o banco de dados integrado são apontados. 
+
+
+
+\section{Metodologia} \label{sec:firstpage}
+
+
+\subsection{Materiais: Descrição das Bases de Dados}
+
+Para a análise da insegurança alimentar e nutricional no Brasil em nível municipal, foram coletados diversos bancos de dados de fontes oficiais. Entre elas, utilizamos informações provenientes do banco de dados da Divisão Territorial Brasileira (DTB), da Produção Agrícola Municipal (PAM), do Censo Agropecuário, do Cadastro Nacional de Estabelecimentos de Saúde (CNES), do Cadastro Central de Empresas (CEMPRE), do Sistema de Vigilância Alimentar e Nutricional (SISVAN), do Produto Interno Bruto Municipal (PIB Munic), ademais buscamos dados oriundos de duas fontes de dados sendo elas o Ministério do Desenvolvimento Social (MDS) e do Censo Demográfico. Esses dados fornecem dados essenciais para compreender fatores socioeconômicos, agrícolas, de saúde e de desenvolvimento municipal. É importante ressaltar que essas fontes e bases de dados vinculadas foram identificadas após etapa de modelagem conceitual do domínio da InSAN.
+
+Entretanto, algumas fontes de dados foram excluídas da análise devido à falta de granularidade necessária para a pesquisa. O Instituto de Pesquisa Econômica Aplicada (IPEA) e o Sistema de Vigilância Alimentar e Nutricional (SISVAN) foram descartados, pois seus dados não encontram-se disponíveis em nível municipal, dificultando a integração com as demais fontes utilizadas.
+
+Foi identificado também a falta de dados específicos, como informações sobre trabalho infantil e detalhes sobre gastos com alimentação e qualidade nutricional, que não foram encontrados, ou não estavam disponíveis em nível municipal, ou não explicitavam a origem de todos os dados. No caso da IPEA, o problema foi o último aspecto. A fonte de dados funciona como um repositório de outras bases de dados, mas não apresenta todas as bases de dados de referências utilizadas. Já no caso do SISVAN, o problema foi especialmente a granularidade, ou seja, o nível de detalhe em que os dados são armazenados, ao passo que seus dados se encontram a nível de unidade federativa. Essas limitações impactam a análise, pois os dados disponíveis em nível nacional não possuem a granularidade necessária para o estudo municipal.
+
+
+\begin{table}[h]
+\centering
+\scriptsize
+\caption{Bases de dados por ano e fonte}
+\begin{tabular}{|p{3cm}|p{2cm}|p{0.8cm}|p{0.8cm}|p{0.8cm}|p{0.8cm}|p{0.8cm}|p{0.8cm}|p{0.8cm}|p{0.8cm}|}
+    \hline
+    Bases & Fonte & 2017 & 2018 & 2019 & 2020 & 2021 & 2022 & 2023 & 2024 \\
+    \hline
+    PAM & IBGE & X & X & X & X & X & X & X &  \\
+    \hline
+    Censo Agropecuário & IBGE & X &  &  &  &  &  &  &  \\
+    \hline
+    CNES & DATASUS & X & X & X & X & X & X & X & X \\
+    \hline
+    CEMPRE & IBGE &  &  &  & X & X & X &  &  \\
+    \hline
+    Novo CAGED & GOV &  &  &  & X & X & X & X & X \\
+    \hline
+    MDS & GOV & X & X & X & X & X & X & X & X \\
+    \hline
+    PIB Munic & IBGE & X & X & X & X & X &  &  &  \\
+    \hline
+    Censo Demográfico & IBGE &  &  &  &  &  & X &  &  \\
+    \hline
+    DTB & IBGE & X & X & X & X & X & X & X & X\\
+    \hline
+    \end{tabular}
+
+\label{Tabela 1}
+\end{table}
+\FloatBarrier
+
+A Tabela \ref{Tabela 1} mostra as bases de dados entre os anos de 2017 a 2024, indicando suas respectivas fontes. As bases analisadas são provenientes de instituições como IBGE, DATASUS, IPEA e GOV, abrangendo dados econômicos, demográficos e de saúde.
+
+A Tabela \ref{Tabela 1} também permite visualizar a continuidade dos registros ao longo do tempo, evidenciando períodos de maior ou menor disponibilidade de informações. Enquanto o Censo Demográfico do IBGE se revelou como a base de dados que apresenta a maior descontinuidade, o Cadastro Nacional de Estabelecimentos de Saúde (CNES) do DataSUS foi a base mais contínua. Esses dados são essenciais para a realização de análises históricas e estudos comparativos. É importante ressaltar que a base de dados resultante da integração das fontes de dados não recebeu uma etapa de pós-processamento, como o tratamento de dados ausentes, o que espera-se que ocorra quando aplicado nela um processo completo de preparação de dados para fins específicos de análise da base de dados resultante da integração.
+
+
+\subsection{Métodos}
+\subsubsection{Entendimento do Problema e modelagem conceitual}
+
+Com o objetivo de construir uma base de dados integrada multifatorial para a insegurança alimentar em nível municipal, como primeira etapa da metodologia adotada, foi procurado um melhor entendimento acerca do domínio do problema. Para isso, foi utilizado o método CAPTO proposto em \cite{bresci} para construção de um modelo conceitual. O método objetiva a captura de conhecimento tácito, proveniente do especialista de domínio, e do conhecimento explícito, obtido de fontes distintas como literatura, relatórios técnicos e dicionários de dados. O método busca a criação de um modelo conceitual unificado para servir como guia na seleção conceitual de atributos que representem um domínio de problema específico. 
+
+O modelo conceitual (Figura \ref{Figura 1: Modelo conceitual}) é estruturado em dimensões (perspectivas mais abrangentes dentro do domínio do problema), aspectos (uma divisão menor da dimensão) e atributos (possíveis variáveis vinculadas a cada aspecto do domínio) os quais são vinculados aos campos das fontes de dados disponíveis para o estudo. No artigo \cite{sbbd_estendido} é citado e demonstrado a importância da aplicação do método CAPTO para a construção de modelos representativos.
+
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{Imagens Tabelas/Mapa conceitual InSAN.png}
+\caption{Modelo conceitual da InSAN: dimensões, aspectos e atributos}
+\label{Figura 1: Modelo conceitual} 
+\end{figure}
+
+\FloatBarrier
+
+
+A partir do modelo conceitual foram identificadas as seguintes dimensões associadas a InSAN: a) Social; b) Produção Alimentar; c) Econômica; d) Geográfica; e e) Condição de Saúde. A Tabela ~\ref{Tabela 2} mostra as dimensões, os aspectos, e os atributos vinculados às tabelas das fontes de dados consideradas. Cada aspecto é justificado a partir de referências bibliográficas. 
+
+\begin{center}
+    \scriptsize
+    \begin{longtable}{|p{6cm}|p{8cm}|}
+        \caption{Mapa Conceitual Tabular} 
+        \label{Tabela 2}
+        \hline
+        \multicolumn{2}{|c|}{\textbf{Descrição do Mapa Conceitual – Domínio de problema: InSAN}}\\
+        \hline
+        \multicolumn{2}{|c|}{\textbf{Dimensão: Social}}\\
+        \hline
+        \textbf{Aspectos e Atributos Associados} & \textbf{Fontes de Dados} \\
+        \hline
+        \endfirsthead
+        \hline
+        \textbf{Aspectos e Atributos Associados} & \textbf{Fontes de Dados} \\
+        \hline
+        \endhead
+        \hline
+        \multicolumn{2}{c}{Continua na próxima página}\\
+        \endfoot
+        \multicolumn{2}{c}{}\\
+        \endlastfoot
+
+        \textbf{Acesso às necessidades básicas:} A falta de acesso a esses direitos impacta negativamente tanto o dia a dia dos moradores bem como a InSAN do município \cite{Mattos:21} e \cite{Araújo:20}.
+        \newline
+        \textbf{Atributos:} Transporte, Saneamento, Esgoto, Água potável, Energia elétrica, Asfaltamento & Tabela 9922 - Total; Urbana; Rural; Fonte: Censo Demográfico(2022)\newline Tabela 9543 - Total; Fonte: Censo Demográfico(2022)\newline Tabela 6326 - Total; Casa; Casa de vila ou em condomínio; Apartamento; Habitação indígena sem paredes ou maloca; Fonte: Censo Demográfico (2022)\newline Tabela 6892 - Total; Coletado; Fonte: Censo Demográfico (2022)\newline Tabela 6804 - Total; Rede geral de distribuição; Canalizada até dentro da casa; apartamento ou habitação; Canalizada, mas apenas no terreno; Sem água canalizada; Fonte: Censo Demográfico(2022)\newline Tabela 6805 - Total; Rede geral, rede pluvial ou fossa ligada à rede; Fonte: Censo Demográfico(2022)\newline Tabela 9542 - Alfabetizadas; Não alfabetizadas; Fonte: Censo Demográfico(2022)\\ 
+        \hline 
+        
+        \textbf{Projetos Sociais:} A presença de projetos sociais como o Bolsa Família influenciam a InSAN pelo fato de auxiliarem as famílias com benefícios \cite{Mattos:21} e \cite{bezerra:17}
+        \newline
+        \textbf{Atributos:} Bolsa Família, PAA (Programa de Aquisição de Alimentos), Quantidade de pessoas registradas no CRAS, BPC & Quantidade De Famílias Beneficiárias, Valor Repassado e Valor Médio dos benefícios pagos do PBF - qtd\_familias\_beneficiarias\_bolsa\_familia\_s; valor\_repassado\_bolsa\_familia\_s; pbf\_vlr\_medio\_benef\_f; Fonte: MDS(2017-2024)\newline Beneficiários BPC - bpc\_ben; bpc\_pcd\_ben; bpc\_val; bpc\_pcd\_val; bpc\_idoso\_val; Fonte: MDS(2017-2024)\\ 
+        \hline 
+        
+        \textbf{Escolaridade:} O grau de escolaridade médio de um determinado município influência no nível da Insegurança Alimentar dele, pois um município que possui habitantes que possuem capacitações básicas, como estar escolarizado, tem menos chance de estar em alguma categoria da IA. Além disso, o nível dessa escolaridade também influencia \cite{Mattos:21}.
+        \newline
+        \textbf{Atributos:} Índice de analfabetismo, Grau de escolaridade & Tabela 9543 - Total; Fonte: Censo Demográfico(2022)\newline Tabela 9542 - Total; Alfabetizadas; Não Alfabetizadas; Fonte: Censo Demográfico(2022)\\
+        \hline
+        
+        \multicolumn{2}{|c|}{\textbf{Dimensão: Produção Alimentar}}\\
+        \hline
+        
+        \textbf{Tipos de Cultivos e produtores:} Para identificarmos os tipos de alimentos que são mais acessíveis com maior intensidade naquele determinado município em questão \cite{bernardes:21}.
+        
+        Movimentos sociais têm afirmado que a soberania alimentar é uma precondição para a segurança alimentar \cite{patel:09}.
+        \newline
+        \textbf{Atributos:} Tipos de alimento, Número de agricultores familiares, Diversidade de plantio, Porcentagem de grandes produtores, Integração com o mercado & Tabela 5457 - Abacate; Abacaxi*; Açaí; Alfafa fenada; Algodão arbóreo (em caroço); Algodão herbáceo (em caroço); Alho; Amendoim (em casca); Arroz (em casca); Aveia (em grão); Azeitona; Banana (cacho); Batata-doce; Batata-inglesa; Cacau (em amêndoa); Café (em grão) Total; Café (em grão) Arábica; Café (em grão) Canephora; Caju; Cana para forragem; Caqui; Castanha de caju; Cebola; Centeio (em grão); Cevada (em grão); Chá-da-índia (folha verde); Coco-da-baía*; Dendê (cacho de coco); Erva-mate (folha verde); Ervilha (em grão); Fava (em grão); Feijão (em grão); Figo; Fumo (em folha); Girassol (em grão); Goiaba; Guaraná (semente); Juta (fibra); Laranja; Limão; Linho (semente); Maçã; Malva (fibra); Mamão; Mamona (baga); Mandioca; Manga; Maracujá; Marmelo; Melancia; Melão; Milho (em grão); Noz (fruto seco); Palmito; Pera; Pêssego; Pimenta-do-reino; Rami (fibra); Sisal ou agave (fibra); Soja (em grão); Sorgo (em grão); Tangerina; Tomate; Trigo (em grão); Triticale (em grão); Tungue (fruto seco); Urucum (semente); Uva; Fonte: PAM(2017-2023) \newline Tabela 6906 - Total; Agricultura familiar - não; Agricultura familiar - sim; Fonte: Censo Agropecuário (2017)\\ 
+        \hline 
+        
+        \textbf{Concentração da produção alimentar:} A concentração na produção alimentar impacta negativamente na distribuição alimentar, segurança alimentar, e na sustentabilidade desses sistemas \cite{CAMPI:21}.
+        \textit\newline
+        \textbf{Atributos:} Número de produtores & Tabela 6906 - Total; Fonte: Censo Agropecuário (2017)\\ 
+        \hline 
+
+        \multicolumn{2}{|c|}{\textbf{Dimensão: Condição de Saúde 'Típico'}}\\
+        \hline
+        
+        \textbf{Infraestrutura:} Cidades que possuem famílias em IA possuem uma infraestrutura de baixa qualidade, principalmente de saúde \cite{Araújo:20}.
+        
+        \textit{Atributos:} Número de leitos, Número de clínicas básicas, Número de clínicas especializadas & Recursos Físicos Ambulatório Consultórios - Clínica Básica; Clínica Especializada; Fonte: CNES(2017-2024)\newline Recursos Físicos Ambulatório Leitos de Repouso e Observação - Leitos Repouso/Observação Ped; Leitos Repouso/Observação Masc; Leitos Repouso/Observação Femin; Leitos Repouso/Observação Indif; Fonte: CNES(2017-2024)\newline Recursos Físicos Hospitalar Leitos de internação - Quantidade existente; Fonte: CNES(2017-2024)\newline Recursos Físicos Urgência Leitos de Repouso/Observação - Leitos Repouso/Observação Ped; Leitos Repouso/Observação Masc; Leitos Repouso/Observação Femin; Leitos Repouso/Observação Indif; Fonte: CNES(2017-2024)\\
+        \hline 
+        
+        \textbf{Doenças típicas:} A InSAN impacta no desenvolvimento físico, motor, cognitivo e socioemocional de crianças, ela pode levar a um maior risco de doenças infecciosas e crônicas imediatas e na fase adulta \cite{Gallo_Jaime:24}. & Não foram encontradas bases para esse aspecto\\ 
+        \hline 
+
+        \multicolumn{2}{|c|}{\textbf{Dimensão: Geográfica}}\\
+        \hline
+        
+        \textbf{Localização e perfil do Município:} A categorização do município como rural ou urbano, bem como a localização regional do mesmo influencia a situação da InSAN do mesmo \cite{Mattos:21}.
+        \newline
+        \textbf{Atributos:} Tipo do município (rural ou urbano), Região pertencente(Norte, Sul, Sudeste, etc) & RELATORIO\_DTB\_BRASIL\_MUNICIPIO - UF; Nome\_UF; Código Município Completo; Nome\_Município; Fonte: DTB(2023) \newline Tabela 9922 - Total; Urbana; Rural; Fonte: Censo Demográfico(2022)\\ 
+        \hline 
+        
+        \textbf{Cultura Alimentar do Município:} A cultura alimentar brasileira é rica em alimentos nutritivos e saudáveis. Além disso, a população de municípios que possuem uma cultura alimentar bem definida e acessível tendem a ter um baixo nível de InSAN, pois a população passa a não consumir alimentos não saudáveis com frequência \cite{burity:10} e \cite{sambuichi:22}.
+        \newline
+        \textbf{Atributos:} Alimentos consumidos no município, Pratos locais & Não foram encontradas bases para esse aspecto\\ 
+        \hline 
+
+        \multicolumn{2}{|c|}{\textbf{Dimensão: Econômica}}\\
+        \hline
+        
+        \textbf{Renda e Desenvolvimento:} Viver em um país com baixo PIB per capita foi associado com as inseguranças alimentares mais severas \cite{allee:21}.
+        
+        Regiões com um IDH relativamente alto são associadas com uma menor probabilidade de insegurança alimentar: cada melhora de IDH em 0,1 é associada com 2,3\% menos probabilidade de insegurança alimentar grave e 2,7\% menos chance de ter insegurança alimentar moderada a severa \cite{dasgupta:22}.
+        \newline
+        \textbf{Atributos:} Renda per Capita, IDHM, PIB, Grau de desemprego & Tabela 13 - Unidades da Federação; Municípios; Número de unidades locais; Pessoal ocupado Total; Pessoal ocupado Assalariado; Pessoal assalariado médio; Salários e outras remunerações (1 000 R\$); Salário médio mensal (salários mínimos) (1) (2); Salário médio mensal (R\$) (2); Número de empresas atuantes; Fonte: CEMPRE (2020-2022)\newline Tabela 5938 - Código do Município; Produto Interno Bruto per capita, a preços correntes(R\$ 1,00); Fonte: PIB Munic (2017-2021)\\ 
+        \hline 
+        
+        \textbf{Atividades Econômicas predominantes:} A atividade econômica da cidade possui uma relevância considerável, pois se o município possui um maior número de trabalhadores com carteira assinada ou de desempregados, sem carteira assinada, ou por conta própria gera impactos na InSAN \cite{Mattos:21}.
+        \newline
+        \textbf{Atributos:} Atividade econômica predominante, Porcentagem de empregados por carteira assinada, Empregadores regularizados & Tabela 5938 - Código do Município; Atividade com maior valor adicionado bruto; Fonte: PIB Munic (2017-2021) \newline Tabela 8.1 - Código do Município; UF; Município; Estoque; Fonte: Novo-CAGED (2020-2024)\\ 
+        \hline
+        
+        \textbf{Gastos com alimentação:} A compra de alimentos com baixa qualidade nutricional, que causam repercussões negativas como a obesidade, e a preferência alimentar do município impactam a InSAN \cite{Araújo:20}.
+        \newline
+        \textbf{Atributos:} Gasto médio com alimentação, Qualidade nutricional & Não foram encontradas bases para esse aspecto\\ 
+        \hline 
+        
+        \textbf{Problema Econômico:} Trabalho infantil foi reportado como a primeira atividade mais predominante em crianças com insegurança alimentar \cite{BERNAL:14}.
+        \newline
+        \textbf{Atributos:} Trabalho Infantil & Não foram encontradas bases para esse aspecto\\ 
+        \hline      
+    \end{longtable}
+\end{center}
+%\FloatBarrier
+\subsection{Transformação dos dados}
+Antes do processo de integração das bases de dados, as bases originais das fontes de dados foram submetidas a um processo de transformação de dados. Este processo, foi desenvolvido na linguagem python, identificando as informações das tabelas a serem extraídas, formatação dos dados sem alterar o significado e a informação, exclução de atributos desnecessários e transformando dados em métricas básicas de atributos específicos, sendo eles as  médias, a soma dos valores, o valor máximo e o valor mínimo. Para representar o processo de transformação, o infografo da Figura ~\ref{Figura 2: Fluxograma Transformação} é mostrado. A seguir as etapas do fluxograma são sucintamente descritos.
+
+\begin{itemize}
+    \item Para lidar com os diferentes tipos de formatações das bases de dados escolhidas, foi necessário realizar um processo de transformação para específicos campos (nomes de município, siglas da unidade federativa, formatações numéricas, etc.). Isso com o objetivo de padronizar os atributos correspondentes e possibilitar, então a integração por meio do método \textit{"merge"}. Foram definidas funções para cada processo de transformação realizado nas bases de dados. 
+    \item O primeiro passo do processo de transformação, correspondeu ao carregamento das bases de dados referentes a um específico ano, e seleção dos atributos vinculados com o modelo conceitual. O passo seguinte foi avaliar se a formatação de nomes do município e estado encontravam-se separados em colunas diferentes. Caso estes valores estivessem juntos, eles eram separados e formatados corretamente. Após estas etapas, foi verificada a existência de atributo contendo o código do município e, caso esse atributo não existisse, era utilizado o nome e o estado para identificar o código em uma tabela de referência de códigos de estados e municípios. 
+    \item Algumas tabelas de dados não encontravam-se agregados em nível anual, mas sim em períodos mensais de cada ano. Para consolidar essas informações, foram calculadas e inseridas as colunas que representam o total, a média, os valores máximo e mínimo para o ano específico. Dessa forma, os valores foram agrupados por ano sem alterar o significado deles.
+    \item Campos (atributos) que não poderiam ser facilmente compreendidas, por interpretação humana, tiveram seu nome alterado para facilitar a compreensão da tabela. Adicionalmente, os valores de alguns campos foram formatados para cumprir o mesmo objetivo. Essa formatação envolvia alteração do formato numérico americano para brasileiro, e a troca dos tipos de dados das colunas que estavam incorretos.
+    \item O ultimo passo foi juntar as tabelas em uma única tabela unificada para cada ano separadamente, usando a função \textit{"merge"} da biblioteca pandas, considerando os códigos de município como atributo chave.
+\end{itemize}
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.9\textwidth]{Imagens Tabelas/Modelo de transformação InSAN.png}
+\caption{Fluxograma Transformação das bases}
+\label{Figura 2: Fluxograma Transformação} 
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Integração}
+Com as respectivas bases devidamente tratadas, iniciou-se a etapa final, que consistiu em reuni-las em uma única base de dados. Para isso, as tabelas tratadas e integradas para cada ano foram registradas separadas em planilhas diferentes, em um único arquivo em formato xlsx. Todo esse processo foi realizado utilizando a linguagem python e pode ser observado por meio do infográfico da Figura ~\ref{Figura 3: Integração}.
+
+As planilhas resultantes apresentam dimensionalidade diferente quanto ao número de campos. Isso se deve ao fato de diversas pesquisas não terem sido realizadas em alguns anos, fazendo com que alguns atributos não estivessem presentes. A base e o dicionário de dados InSANdB podem ser acessados a partir do link: https://github.com/licapLaboratory/DataBaseInSAN
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Imagens Tabelas/Modelo de Integração InSAN.png}
+    \caption{Integração das bases de dados anuais}
+    \label{Figura 3: Integração}
+    \end{figure}
+
+\FloatBarrier
+
+\section{Exploração da base de dados integrada}
+
+A base final integra, de forma resumida, 5 categorias de dados: identificadores de município e estado, que são utilizados como chaves primárias, dados econômicos do município, dados de infraestrutura do município, dados de saúde do município e dados sociais do município. Os campos códigos, nomes de municípios e UF são a base para qualquer análise regional ou comparativa, sendo utilizados como chaves primárias para tratar as cardinalidades entre as bases de cada ano.
+
+Quanto aos dados econômicos reunidos, a base integrada fornece informações na escala de município de sua produção econômica de frutas, grãos e cereais, tubérculos e raízes e de culturas industriais, bem como da relação destas produções com o PIB local. Vale ressaltar que o IBGE, em suas publicações, como a Produção Agrícola Municipal (PAM), frequentemente separa culturas como cana-de-açúcar, fumo, algodão e outras matérias-primas industriais em categorias distintas das demais. Para este trabalho, foram integradas essas diferentes categorias, com o intuito de oferecer um panorama mais amplo, principalmente para a visualização destes dados e para futuras aplicações de modelos de aprendizado de máquina. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.0\textwidth]{graficos/AtvEco_UF.png}
+\caption{Atividades Econômicas com Maior Valor Adicionado por UF}
+\label{Figura 4: AtvEco_UF}
+\end{figure}
+
+\FloatBarrier
+A Figura ~\ref{Figura 4: AtvEco_UF}, mostra um exemplo de visualização dos dados, extraído da base de dados InSANdB referente às atividades econômicos predominantes aglomerado por Unidade Federativa brasileiro. O gráfico destaca setores como agricultura, indústria e serviços, permitindo identificar características regionais que podem influenciar os níveis de segurança alimentar no país.
+
+A base InSANdB também permite analisar dados da saúde, por meio de questões infraestruturais do município para atendimento, número de clínicas e de leitos de diversas categorias (considerando que podem ser leitos de ambulatório ou leitos de urgência), além de serem separados por gênero e público atendido. O gráfico da Figura \ref{chart_isan_leitos_2} permite observar o número de leitos de internação e clínicas básicas em todos os estados brasileiros, no ano de 2021.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth]{graficos/chart_isan_leitos_2.png}
+\caption{Total de Leitos e Clínicas Básicas em todos os estados no ano de 2021}
+\label{chart_isan_leitos_2}
+\end{figure}
+
+\FloatBarrier
+No quesito social é possível obter dados que remetem aos domicílios, buscando trazer informações como o acesso a água, esgoto, educação e coleta de lixo por município brasileiro. Além disso, é possível extrair dados sobre as características dos residentes do município, sendo eles taxa de alfabetização e quantidade total de recebimento de benefícios governamentais. Dados esses que traduzem de uma forma geral a quantidade de habitantes em situações de vulnerabilidade social, já que os requisitos para concessão do Benefício de Prestação Continuada (BPC) exigem uma situação econômica precária e portar uma condição incapacitante em relação a suas atividades laborais. A Figura~\ref{BPC_Minas} traz um gráfico que apresentam os valores repassados para o estado de Minas Gerais historicamente. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{graficos/BPC_Minas.png}
+\caption{Evolução temporal dos valores repassados do BPC para o estado de Minas Gerais}
+\label{BPC_Minas}
+\end{figure}
+
+\FloatBarrier
+
+A analise exploratória realizada evidencia paradigmas sociais relacionados a insegurança alimentar, enquanto aborda as 5 categorias resultantes da integração das fontes de dados. Desta forma, nos permite fazer conclusões e levantar questionamentos validos e orientados a dados.
+
+\section{Conclusão}
+A insegurança alimentar e nutricional (InSAN), conforme analisado neste estudo, consiste num fenômeno multifatorial que demanda compreensão ampliada de suas causas e expressões. A partir da modelagem conceitual, foi possível observar que esse problema se manifesta de forma desigual nos diferentes grupos sociais, afetando com maior intensidade as populações em situação de vulnerabilidade socioeconômica, e, como esperado, articulando-se a fatores como renda, acesso a serviços públicos, condições de moradia e dinâmicas locais de abastecimento alimentar.  
+
+Dado estes fatos, este trabalho buscou integrar diversas bases de dados que representam aspectos relacionadas à InSAN, previamente mapeados pelo processo de modelagem conceitual. Assim criando uma base de dados (InSANdB) para que estudos posteriores possam explorar os dados explicitados, e obter insights  significativos sobre o problema. É importante destacar que a carência de alguns atributos destacados pelo modelo conceitual podem influenciar negativamente nos resultados desta pesquisa.  Desta forma além das contribuições descritas neste texto, este trabalho traz uma perspectiva engrandecedora para  a literatura  a respeito da insegurança alimentar, retratando uma busca de dados realista e os empecilhos associados a indisponibilidade de dados a relativos ao problema
+
+Conclui-se que o enfrentamento da insegurança alimentar requer ações articuladas que combinem o monitoramento contínuo da situação alimentar e nutricional de cada região com o fortalecimento de sistemas locais de produção e distribuição de alimentos. A adoção de medidas baseadas em evidencias, acompanhadas por avaliações sistemáticas, pode contribuir para uma melhoria nas condições de acesso regular e permanente a uma alimentação adequada.
+
+\begin{flushleft}
+\textbf{Agradecimentos}
+\end{flushleft}
+Os autores agradecem o apoio recebido do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Processo No 303133/2021-0, e da Fundação de Ampara à Pesquisa do Estado de Minas Gerais (FAPEMIG), Processo No PCE-00349-25.
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+\end{document}
